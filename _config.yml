@@ -1,1 +1,32 @@
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+
+# Site settings
+title: Drew's Website
+description: Personal blog, portfolio, and curated integrations
+baseurl: ""
+url: "http://www.drewfass.com"
+
+# Navigation
+navigation:
+  - label: "Blog"
+    url: /blog/
+  - label: "About"
+    url: /about/
+  - label: "Integrations"
+    url: /integrations/
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  integrations:
+    output: true
+    permalink: /:collection/:path/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
