@@ -1,11 +1,10 @@
 ---
 layout: home
+title: Welcome to Drew's Website!
 author_profile: true
 ---
 
-# Welcome to Drew's Website
-
-A curated collection of thoughts, favorites, and integrations.
+A curated collection of thoughts, learnings, and random fascinations...
 
 ## Most Recent
 
