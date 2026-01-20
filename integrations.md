@@ -5,8 +5,6 @@ permalink: /integrations/
 author_profile: true
 ---
 
-# Integrations
-
 Connected feeds from external services showcasing my activities, reading, and more.
 
 ## Currently Available
