@@ -1,0 +1,9 @@
+.git
+.gitignore
+_site
+.jekyll-cache
+.jekyll-metadata
+node_modules
+*.md
+README.md
+CNAME
