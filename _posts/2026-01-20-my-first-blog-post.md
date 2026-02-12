@@ -6,6 +6,9 @@ date: 2026-01-20
 categories: [intro]
 tags: [first-post, jekyll]
 excerpt: "An introduction to what I want this website to be."
+header:
+  image: "/images/cohesive-thruline-header.jpg"
+  image_description: "Hand organizing tangled ropes into organized colorful threads"
 ---
 
 ## Welcome to my 🧠

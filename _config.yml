@@ -31,3 +31,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
+
+# Ensure project-root images/ are copied into the generated _site
+include:
+  - images
