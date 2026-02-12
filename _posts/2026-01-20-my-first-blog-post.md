@@ -19,4 +19,4 @@ This blog doesn't really have any limits or bounds to what posts will be about. 
 
 As for the audience, I'm going to write for my future self. I don't mind if nobody sees it or reads it. I'm not planning to publish it for others to consume (outside of putting it on my domain [drewfass.com](drewfass.com)). If people find it organically, great - if it motivates them, great - if it helps lead me to a new career path or can be used to show my past experiences, great. But that's not the goal. The goal is purely to get in the practice of not forgetting my realizations and lessons learned over time.
 
-If you want to reach out to me I'm going to create an email specifically for this website, [insert email here](). Always happy to meet new people and learn how other people see the world.
+If you want to reach out to me I'm going to create an email specifically for this website, [insert email here](drew.promo.email@gmail.com). Always happy to meet new people and learn how other people see the world.
