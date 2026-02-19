@@ -2,7 +2,7 @@
 layout: single
 title: "A New Philosophy on Life ✍️"
 author: Drew Fass
-date: 2026-02-11
+date: 2026-02-18
 categories: [philosophical]
 tags: [narrative, life, work, jekyll]
 excerpt: "An exploration into what I want my life to be."
