@@ -109,7 +109,7 @@ Awareness that our emotional state drives our perception of reality  opens the d
 
 ## Conclusion
 
-At the end of the day, we’re all navigating systems that are more complex than we realize. The more moving parts, the more risk we invite, and the more our limited time and attention get stretched thin. By focusing on clarity, reducing unnecessary complexity, and designing with our human nature in mind, we give ourselves the best shot at meaningful progress and peace of mind. It’s not about squeezing every drop of efficiency out of life, but about making sure the game we’re playing are actually winnable, and that we are optimizing for the right things. 
+At the end of the day, we’re all navigating systems, in work and in life, that are more complex than we realize. The more moving parts, the more risk we invite, and the more our limited time and attention get stretched thin. By focusing on clarity, reducing unnecessary complexity, and designing with our human nature in mind, we give ourselves the best shot at meaningful progress and peace of mind. It’s not about squeezing every drop of efficiency out of life, but about making sure the game we’re playing are actually winnable, and that we are optimizing for the right things. 
 
 In a world full of noise, the real advantage comes from cutting through it. 
 
