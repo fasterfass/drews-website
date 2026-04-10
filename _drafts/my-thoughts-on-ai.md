@@ -16,7 +16,7 @@ header:
 
 The world is incredibly confusing right now. It's noisy in many different directions and none more than in the direction of AI. This technology is unique in it's ability to reason and automate non-deterministic tasks. Its presence is changing the playing field of our work and is forcing us collectively to question our role in society and reconcile our humanity and our "value" in real time (often in ways that are hard to calculate and understand). 
 
-This post is my attempt to understand this AI transformation at the current moment, and how it applies to my own life. It's too big of a topic for one post, but this will be my first attempt to break it down. For clarity, I'm going to start big picture on the societal impact that AI will have on our world, and will then work my way down to the individual's AI experience (using myself and my software engineering background as the backdrop).
+This post is my attempt to understand this AI transformation at the current moment, my skepticism around it, and how it applies to my own life. It's too big of a topic for one post, but this will be my first attempt to break it down. For clarity, I'm going to start big picture on the societal impact that AI will have on our world, and will then work my way down to the individual's AI experience (using myself and my software engineering background as the backdrop).
 
 Here goes nothing...
 
@@ -24,13 +24,20 @@ Here goes nothing...
 ## Big Picture
 # Old Unspoken Tradeoffs
 
+I think to truly understand AI, we first have to understand the economy and how society works in today's day and age. 
+
+Currently (in the US) we live in a capitalist society. Capitalism, by definition, is a balance between two parties: labor and capital. Those on the labor side (people working for a living) are inevitably trying to position themselves in places where their skills are valuable and where they get paid "fairly" for their work relative to the cost of living (food, housing, transportation, etc.). Those on the capital side (people who own companies, employ people, or are shareholders in a venture) are constantly trying to maintain value relative to other entities in their space and grow their money and operations faster than the rate of inflation (so they can profit off of the difference).
+
+
+
+ where there is an implicit tradeoff between labor (people working jobs to provide "value") and capital (people paying for others to provide a service or skill).
+
+
 - Capitalist Identities
     - A world built on trust, cooperation, growth and economy
     - Historical tradeoff between labor and capital. In theory, everyone can "win"
     - Identity and the "American Dream", meritocracy + growth = opportunity
     - Shared belief that tomorrow will be better than today fuels the willingness to participate
-
-I think to truly understand AI, we first have to understand the economy and how society works in today's day and age. Benn Johnson has a good video on this ()
 
 
 - The Implicit Promise
