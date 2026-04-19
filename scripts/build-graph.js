@@ -11,12 +11,29 @@ const POSTS_DIR = path.join(__dirname, '../_posts');
 const EXTERNAL_NODES_PATH = path.join(__dirname, '../_data/external_nodes.yml');
 const OUTPUT_PATH = path.join(__dirname, '../assets/graph.json');
 
-// Helper to get all markdown files in _posts
+/**
+ * Retrieve markdown filenames from the posts directory.
+ * @returns {string[]} Filenames from `POSTS_DIR` that end with `.md`.
+ */
 function getPostFiles() {
   return fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
 }
 
-// Parse posts and build nodes
+/**
+ * Load markdown files from the posts directory, parse their frontmatter, and produce post node objects.
+ *
+ * Skips files missing or containing an invalid `date` in frontmatter. Uses `data.permalink` when present;
+ * otherwise derives a URL from the filename pattern `YYYY-MM-DD-slug.md` and the first category in `data.categories`,
+ * falling back to `/<filename-without-ext>.html` when the pattern does not match.
+ *
+ * @returns {Array<Object>} An array of post objects with the shape:
+ *   - id: string (filename without `.md`)
+ *   - title: string
+ *   - date: Date
+ *   - url: string
+ *   - tags: Array<string>
+ *   - type: string (value `'post'`)
+ */
 function parsePosts() {
   const files = getPostFiles();
   const posts = [];
@@ -72,14 +89,27 @@ function parsePosts() {
   return posts;
 }
 
-// Parse external nodes from YAML
+/**
+ * Load external node definitions from the YAML file at EXTERNAL_NODES_PATH.
+ *
+ * If the file does not exist or the parsed result is falsy, returns an empty array.
+ * @returns {any} The parsed YAML value (typically an array of external node objects), or `[]` when missing or empty.
+ */
 function parseExternalNodes() {
   if (!fs.existsSync(EXTERNAL_NODES_PATH)) return [];
   const yamlData = fs.readFileSync(EXTERNAL_NODES_PATH, 'utf8');
   return yaml.load(yamlData) || [];
 }
 
-// Build edges: post→post (older to newer if they share a tag), external→post
+/**
+ * Construct graph edges between posts and from external nodes to posts.
+ *
+ * Iterates posts to create directed post→post edges from older to newer posts that share one or more tags, and processes external nodes to create external→post edges either targeting posts by tag (fan-out) or by explicit post id.
+ *
+ * @param {Array<Object>} posts - Array of post objects with at least `{ id: string, date: Date|null, tags: string[] }`.
+ * @param {Array<Object>} externalNodes - Array of external node objects; each may include `id` and an `edges` array where each edge has either `tag` or `post_id`.
+ * @returns {Array<Object>} Array of edge objects. Post→post edges have `{ source, target, tags }`. External→post edges have `{ source, target, type: 'external', tag? }`.
+ */
 function buildEdges(posts, externalNodes) {
   const edges = [];
   // Post→post edges (ignore posts with null/invalid dates)
@@ -111,6 +141,13 @@ function buildEdges(posts, externalNodes) {
   return edges;
 }
 
+/**
+ * Build graph data from posts and external nodes and write it to disk.
+ *
+ * Reads parsed posts and external node definitions, constructs `nodes` and `edges` for the graph,
+ * ensures the output directory exists, writes the resulting `{ nodes, edges }` JSON to OUTPUT_PATH,
+ * and logs the written path.
+ */
 function main() {
   const posts = parsePosts();
   const externalNodes = parseExternalNodes();
