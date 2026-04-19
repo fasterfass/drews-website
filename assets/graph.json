@@ -3,7 +3,7 @@
     {
       "id": "2026-01-20-my-first-blog-post",
       "label": "Building a cohesive thruline",
-      "url": "/2026/01/20/my/first/blog/post.html",
+      "url": "/2026/01/20/my-first-blog-post.html",
       "type": "post",
       "tags": [
         "first-post",
@@ -14,7 +14,7 @@
     {
       "id": "2026-02-18-a-new-philosophy-on-life",
       "label": "A New Philosophy on Life ✍️",
-      "url": "/2026/02/18/a/new/philosophy/on/life.html",
+      "url": "/2026/02/18/a-new-philosophy-on-life.html",
       "type": "post",
       "tags": [
         "narrative",
@@ -27,7 +27,7 @@
     {
       "id": "2026-04-10-simplicity-is-king",
       "label": "Simplicity is King 👑",
-      "url": "/2026/04/10/simplicity/is/king.html",
+      "url": "/2026/04/10/simplicity-is-king.html",
       "type": "post",
       "tags": [
         "life",
@@ -42,7 +42,7 @@
       "label": "Morning Ride",
       "url": "https://www.strava.com/activities/123456",
       "type": "strava",
-      "icon": "/assets/images/strava-icon.svg",
+      "icon": "/assets/images/strava.svg",
       "color": "#fc4c02"
     }
   ],

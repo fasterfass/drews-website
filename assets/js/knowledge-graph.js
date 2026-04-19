@@ -34,8 +34,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       });
 
-      // Render with Sigma (v2.x)
-      const renderer = new window.Sigma(graph, container, {
+
+      // Render with Sigma (v3.x UMD: may be window.Sigma or window.Sigma.default)
+      const SigmaCtor = window.Sigma && typeof window.Sigma === "function"
+        ? window.Sigma
+        : window.Sigma && window.Sigma.default
+          ? window.Sigma.default
+          : null;
+      if (!SigmaCtor) {
+        console.error("Sigma.js is not loaded or not found on window.Sigma");
+        return;
+      }
+      const renderer = new SigmaCtor(graph, container, {
         renderEdgeLabels: false,
         minCameraRatio: 0.1,
         maxCameraRatio: 10,

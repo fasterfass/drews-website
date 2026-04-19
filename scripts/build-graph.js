@@ -19,17 +19,32 @@ function getPostFiles() {
 // Parse posts and build nodes
 function parsePosts() {
   const files = getPostFiles();
-  const posts = files.map(filename => {
+  const posts = [];
+  files.forEach(filename => {
     const filePath = path.join(POSTS_DIR, filename);
     const { data } = matter(fs.readFileSync(filePath, 'utf8'));
-    return {
+    let date = null;
+    if (data.date) {
+      date = new Date(data.date);
+      if (isNaN(date.getTime())) {
+        console.warn(`Warning: Invalid date in post ${filename}: ${data.date}`);
+        date = null;
+      }
+    } else {
+      console.warn(`Warning: Missing date in post ${filename}`);
+    }
+    if (date === null) {
+      // Skip this post entirely (or set fallback logic here if desired)
+      return;
+    }
+    posts.push({
       id: filename.replace('.md', ''),
       title: data.title,
-      date: new Date(data.date),
-      url: `/` + (data.permalink || filename.replace('.md', '').replace(/-/g, '/')) + '.html',
+      date,
+      url: `/` + (data.permalink || filename.replace('.md', '').replace(/^(\d{4})-(\d{2})-(\d{2})-/, '$1/$2/$3/')) + '.html',
       tags: data.tags || [],
       type: 'post',
-    };
+    });
   });
   return posts;
 }
@@ -44,10 +59,12 @@ function parseExternalNodes() {
 // Build edges: post→post (older to newer if they share a tag), external→post
 function buildEdges(posts, externalNodes) {
   const edges = [];
-  // Post→post edges
+  // Post→post edges (ignore posts with null/invalid dates)
   for (let i = 0; i < posts.length; i++) {
+    if (!posts[i].date) continue;
     for (let j = 0; j < posts.length; j++) {
       if (i === j) continue;
+      if (!posts[j].date) continue;
       const sharedTags = posts[i].tags.filter(tag => posts[j].tags.includes(tag));
       if (sharedTags.length && posts[i].date < posts[j].date) {
         edges.push({ source: posts[i].id, target: posts[j].id, tags: sharedTags });

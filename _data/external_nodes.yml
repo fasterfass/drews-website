@@ -4,7 +4,7 @@
   type: strava
   label: "Morning Ride"
   url: "https://www.strava.com/activities/123456"
-  icon: "/assets/images/strava-icon.svg"
+  icon: "/assets/images/strava.svg"
   color: "#fc4c02"
   edges:
     - post_id: 2026-01-20-my-first-blog-post
