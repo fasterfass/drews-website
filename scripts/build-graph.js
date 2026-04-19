@@ -37,14 +37,37 @@ function parsePosts() {
       // Skip this post entirely (or set fallback logic here if desired)
       return;
     }
-    posts.push({
-      id: filename.replace('.md', ''),
-      title: data.title,
-      date,
-      url: `/` + (data.permalink || filename.replace('.md', '').replace(/^(\d{4})-(\d{2})-(\d{2})-/, '$1/$2/$3/')) + '.html',
-      tags: data.tags || [],
-      type: 'post',
-    });
+      // Build the URL: if permalink, use it. Otherwise, use /[category]/YYYY/MM/DD/slug.html if category exists, else fallback
+      let url = null;
+      if (data.permalink) {
+        url = `/${data.permalink.replace(/^\/+/, '')}`;
+      } else {
+        // Extract date parts and slug
+        const match = filename.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
+        if (match) {
+          const [ , year, month, day, slug ] = match;
+          let category = '';
+          if (Array.isArray(data.categories) && data.categories.length > 0) {
+            category = data.categories[0];
+          } else if (typeof data.categories === 'string' && data.categories) {
+            category = data.categories;
+          }
+          url = category
+            ? `/${category}/${year}/${month}/${day}/${slug}.html`
+            : `/${year}/${month}/${day}/${slug}.html`;
+        } else {
+          // fallback to old logic if filename doesn't match
+          url = `/${filename.replace('.md', '')}.html`;
+        }
+      }
+      posts.push({
+        id: filename.replace('.md', ''),
+        title: data.title,
+        date,
+        url,
+        tags: data.tags || [],
+        type: 'post',
+      });
   });
   return posts;
 }

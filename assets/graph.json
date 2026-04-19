@@ -3,7 +3,7 @@
     {
       "id": "2026-01-20-my-first-blog-post",
       "label": "Building a cohesive thruline",
-      "url": "/2026/01/20/my-first-blog-post.html",
+      "url": "/intro/2026/01/20/my-first-blog-post.html",
       "type": "post",
       "tags": [
         "first-post",
@@ -14,7 +14,7 @@
     {
       "id": "2026-02-18-a-new-philosophy-on-life",
       "label": "A New Philosophy on Life ✍️",
-      "url": "/2026/02/18/a-new-philosophy-on-life.html",
+      "url": "/philosophical/2026/02/18/a-new-philosophy-on-life.html",
       "type": "post",
       "tags": [
         "narrative",
@@ -27,7 +27,7 @@
     {
       "id": "2026-04-10-simplicity-is-king",
       "label": "Simplicity is King 👑",
-      "url": "/2026/04/10/simplicity-is-king.html",
+      "url": "/my-thoughts/2026/04/10/simplicity-is-king.html",
       "type": "post",
       "tags": [
         "life",
