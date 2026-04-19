@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "2026-01-20-my-first-blog-post",
+      "label": "Building a cohesive thruline",
+      "url": "/2026/01/20/my/first/blog/post.html",
+      "type": "post",
+      "tags": [
+        "first-post",
+        "jekyll"
+      ],
+      "date": "2026-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "2026-02-18-a-new-philosophy-on-life",
+      "label": "A New Philosophy on Life ✍️",
+      "url": "/2026/02/18/a/new/philosophy/on/life.html",
+      "type": "post",
+      "tags": [
+        "narrative",
+        "life",
+        "work",
+        "jekyll"
+      ],
+      "date": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "id": "2026-04-10-simplicity-is-king",
+      "label": "Simplicity is King 👑",
+      "url": "/2026/04/10/simplicity/is/king.html",
+      "type": "post",
+      "tags": [
+        "life",
+        "complexity",
+        "simplicity",
+        "thoughts"
+      ],
+      "date": "2026-04-10T00:00:00.000Z"
+    },
+    {
+      "id": "strava-ride-1",
+      "label": "Morning Ride",
+      "url": "https://www.strava.com/activities/123456",
+      "type": "strava",
+      "icon": "/assets/images/strava-icon.svg",
+      "color": "#fc4c02"
+    }
+  ],
+  "edges": [
+    {
+      "source": "2026-01-20-my-first-blog-post",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "tags": [
+        "jekyll"
+      ]
+    },
+    {
+      "source": "2026-02-18-a-new-philosophy-on-life",
+      "target": "2026-04-10-simplicity-is-king",
+      "tags": [
+        "life"
+      ]
+    },
+    {
+      "source": "strava-ride-1",
+      "target": "2026-01-20-my-first-blog-post",
+      "type": "external"
+    }
+  ]
+}
