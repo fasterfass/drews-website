@@ -2,3 +2,5 @@
 _site/
 .jekyll-cache/
 Gemfile.lock
+node_modules/
+# Do NOT ignore assets/graph.json, since it must be committed for static hosting
