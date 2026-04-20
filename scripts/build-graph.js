@@ -111,7 +111,8 @@ function buildEdges(posts, externalNodes) {
   return edges;
 }
 
-function main() {
+
+function buildGraph() {
   const posts = parsePosts();
   const externalNodes = parseExternalNodes();
   const nodes = [
@@ -133,9 +134,15 @@ function main() {
     })),
   ];
   const edges = buildEdges(posts, externalNodes);
+  return { nodes, edges };
+}
+
+if (require.main === module) {
+  // Only write to disk if run directly
+  const { nodes, edges } = buildGraph();
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify({ nodes, edges }, null, 2));
   console.log('Graph data written to', OUTPUT_PATH);
 }
 
-main();
+module.exports = { buildGraph };
