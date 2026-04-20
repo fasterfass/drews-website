@@ -1,4 +1,3 @@
-
 // build-graph.js
 // Node.js script to generate a static graph.json for the knowledge graph
 // Run: node scripts/build-graph.js
