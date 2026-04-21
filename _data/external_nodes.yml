@@ -1,10 +1,147 @@
 # External nodes for the knowledge graph
-# Example:
-- id: strava-ride-1
-  type: strava
-  label: "Morning Ride"
-  url: "https://www.strava.com/activities/123456"
-  icon: "/assets/images/strava.svg"
-  color: "#fc4c02"
+
+# Goodreads books that inspired various posts
+- id: goodreads-the-second-mountain
+  type: goodreads
+  label: "The Second Mountain"
+  url: "https://www.goodreads.com/en/book/show/40642458-the-second-mountain"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
   edges:
-    - post_id: 2026-01-20-my-first-blog-post
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+- id: goodreads-the-pathless-path
+  type: goodreads
+  label: "The Pathless Path"
+  url: "https://www.goodreads.com/book/show/60151185-the-pathless-path"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+- id: goodreads-when-breath-becomes-air
+  type: goodreads
+  label: "When Breath Becomes Air"
+  url: "https://www.goodreads.com/book/show/25899336-when-breath-becomes-air"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+- id: goodreads-outlive
+  type: goodreads
+  label: "Outlive"
+  url: "https://www.goodreads.com/book/show/61153739-outlive"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-psychology-of-money
+  type: goodreads
+  label: "The Psychology of Money"
+  url: "https://www.goodreads.com/book/show/41881472-the-psychology-of-money"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-die-with-zero
+  type: goodreads
+  label: "Die With Zero"
+  url: "https://www.goodreads.com/book/show/52950915-die-with-zero"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+- id: goodreads-theo-of-golden
+  type: goodreads
+  label: "Theo of Golden"
+  url: "https://www.goodreads.com/book/show/242376245-theo-of-golden"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+- id: goodreads-tuesdays-with-morrie
+  type: goodreads
+  label: "Tuesdays with Morrie"
+  url: "https://www.goodreads.com/book/show/6900.Tuesdays_with_Morrie"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life
+
+- id: goodreads-fooled-by-randomness
+  type: goodreads
+  label: "Fooled by Randomness"
+  url: "https://www.goodreads.com/book/show/38315.Fooled_by_Randomness"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-antifragile
+  type: goodreads
+  label: "Antifragile"
+  url: "https://www.goodreads.com/book/show/13530973-antifragile"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-paradox-of-choice
+  type: goodreads
+  label: "The Paradox of Choice"
+  url: "https://www.goodreads.com/book/show/10639.The_Paradox_of_Choice"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-the-tipping-point
+  type: goodreads
+  label: "The Tipping Point"
+  url: "https://www.goodreads.com/book/show/2612.The_Tipping_Point"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-sapiens
+  type: goodreads
+  label: "Sapiens"
+  url: "https://www.goodreads.com/book/show/23692271-sapiens"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-atomic-habits
+  type: goodreads
+  label: "Atomic Habits"
+  url: "https://www.goodreads.com/book/show/40121378-atomic-habits"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-signal-and-the-noise
+  type: goodreads
+  label: "The Signal and the Noise"
+  url: "https://www.goodreads.com/book/show/13588394-the-signal-and-the-noise"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-on-the-edge
+  type: goodreads
+  label: "On the Edge"
+  url: "https://www.goodreads.com/book/show/204236707-on-the-edge"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-04-10-simplicity-is-king
+
+# Strava activities where I had important insights
+
+
+# Podcasts or News Outlets that inspired various posts
+- id: youtube-how-to-run-100-miles
+  type: youtube
+  label: "How to Run 100 Miles"
+  url: "https://www.youtube.com/watch?v=iC7Lh4opLsc&pp=ygUUaG93IHRvIHJ1biAxMDAgbWlsZXPSBwkJ0woBhyohjO8%3D"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-02-18-a-new-philosophy-on-life

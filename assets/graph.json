@@ -38,12 +38,140 @@
       "date": "2026-04-10T00:00:00.000Z"
     },
     {
-      "id": "strava-ride-1",
-      "label": "Morning Ride",
-      "url": "https://www.strava.com/activities/123456",
-      "type": "strava",
-      "icon": "/assets/images/strava.svg",
-      "color": "#fc4c02"
+      "id": "goodreads-the-second-mountain",
+      "label": "The Second Mountain",
+      "url": "https://www.goodreads.com/en/book/show/40642458-the-second-mountain",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-the-pathless-path",
+      "label": "The Pathless Path",
+      "url": "https://www.goodreads.com/book/show/60151185-the-pathless-path",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-when-breath-becomes-air",
+      "label": "When Breath Becomes Air",
+      "url": "https://www.goodreads.com/book/show/25899336-when-breath-becomes-air",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-outlive",
+      "label": "Outlive",
+      "url": "https://www.goodreads.com/book/show/61153739-outlive",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-psychology-of-money",
+      "label": "The Psychology of Money",
+      "url": "https://www.goodreads.com/book/show/41881472-the-psychology-of-money",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-die-with-zero",
+      "label": "Die With Zero",
+      "url": "https://www.goodreads.com/book/show/52950915-die-with-zero",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-theo-of-golden",
+      "label": "Theo of Golden",
+      "url": "https://www.goodreads.com/book/show/242376245-theo-of-golden",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-tuesdays-with-morrie",
+      "label": "Tuesdays with Morrie",
+      "url": "https://www.goodreads.com/book/show/6900.Tuesdays_with_Morrie",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-fooled-by-randomness",
+      "label": "Fooled by Randomness",
+      "url": "https://www.goodreads.com/book/show/38315.Fooled_by_Randomness",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-antifragile",
+      "label": "Antifragile",
+      "url": "https://www.goodreads.com/book/show/13530973-antifragile",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-paradox-of-choice",
+      "label": "The Paradox of Choice",
+      "url": "https://www.goodreads.com/book/show/10639.The_Paradox_of_Choice",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-the-tipping-point",
+      "label": "The Tipping Point",
+      "url": "https://www.goodreads.com/book/show/2612.The_Tipping_Point",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-sapiens",
+      "label": "Sapiens",
+      "url": "https://www.goodreads.com/book/show/23692271-sapiens",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-atomic-habits",
+      "label": "Atomic Habits",
+      "url": "https://www.goodreads.com/book/show/40121378-atomic-habits",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-signal-and-the-noise",
+      "label": "The Signal and the Noise",
+      "url": "https://www.goodreads.com/book/show/13588394-the-signal-and-the-noise",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "goodreads-on-the-edge",
+      "label": "On the Edge",
+      "url": "https://www.goodreads.com/book/show/204236707-on-the-edge",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
+      "id": "youtube-how-to-run-100-miles",
+      "label": "How to Run 100 Miles",
+      "url": "https://www.youtube.com/watch?v=iC7Lh4opLsc&pp=ygUUaG93IHRvIHJ1biAxMDAgbWlsZXPSBwkJ0woBhyohjO8%3D",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
     }
   ],
   "edges": [
@@ -62,8 +190,98 @@
       ]
     },
     {
-      "source": "strava-ride-1",
-      "target": "2026-01-20-my-first-blog-post",
+      "source": "goodreads-the-second-mountain",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-the-pathless-path",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-when-breath-becomes-air",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-outlive",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-outlive",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-psychology-of-money",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-psychology-of-money",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-die-with-zero",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-theo-of-golden",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-tuesdays-with-morrie",
+      "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-fooled-by-randomness",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-antifragile",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-paradox-of-choice",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-the-tipping-point",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-sapiens",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-atomic-habits",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-signal-and-the-noise",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-on-the-edge",
+      "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "youtube-how-to-run-100-miles",
+      "target": "2026-02-18-a-new-philosophy-on-life",
       "type": "external"
     }
   ]
