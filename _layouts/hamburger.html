@@ -1,0 +1,41 @@
+<!-- Minimalist Hamburger Menu Overlay -->
+<nav class="hamburger-nav" aria-label="Main Navigation">
+  <button class="hamburger-btn" aria-controls="hamburger-menu" aria-expanded="false" aria-label="Open menu">
+    <span class="hamburger-icon" aria-hidden="true"></span>
+  </button>
+  <div id="hamburger-menu" class="hamburger-menu" hidden>
+    <ul>
+      <li><a href="/">Overview</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- /Minimalist Hamburger Menu Overlay -->
+
+<script>
+// Hamburger menu toggle logic with accessibility
+(function() {
+  var btn = document.querySelector('.hamburger-btn');
+  var menu = document.getElementById('hamburger-menu');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', function() {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', !expanded);
+    menu.hidden = expanded;
+    if (!expanded) {
+      menu.querySelector('a').focus();
+    } else {
+      btn.focus();
+    }
+  });
+  // Close on ESC
+  menu.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      btn.setAttribute('aria-expanded', 'false');
+      menu.hidden = true;
+      btn.focus();
+    }
+  });
+})();
+</script>
