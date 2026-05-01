@@ -115,6 +115,95 @@ For clarity, I'm going to start big picture to look at the societal pressures th
 Here goes nothing...
 
 
+
+## Two Faced Technology
+
+Right now is a unique moment in time. There is sumultaneously a large group of unbridled AI optimists that believe in the power of this new technology, and a large group of AI skeptics that see it as just another tool that is overhyped and oversold. It's really hard to get an accurate read on who is "right" in this debate because both sides have strong arguments.
+
+### The AI Optimist Lens
+
+From the AI optimist perspective, this technology has been shown to be quite remarkable at solving complex real world problems.
+
+To give a few specific examples:
+- AI Models like [AlphaZero](https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/) have learned (through training deep neural networks via reinforcement learning) to beat the best Chess, Shogi, and Go players in the world while also outperforming traditional algorithmic approaches (like [IBM's DeepBlue](https://www.ibm.com/history/deep-blue) system). These approaches have now been extended to solve more complex video games like [Starcraft II](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/), [Quake III: Capture the Flag](https://deepmind.google/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/), and [Dota](https://openai.com/index/openai-five-defeats-dota-2-world-champions/) as well. 
+- [Tesla](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DODSJsviD_SU&ved=2ahUKEwiPms-u35aUAxXsDTQIHcLaO0QQwqsBegQIFxAB&usg=AOvVaw3B-f2QSphRP0lxg-xyZ8Xw) and [Waymo](https://waymo.com/safety/impact/) self-driving AI (relying on computer-vision, and path planning models) have been shown to outperform most humans on the road leading to less interventions and vehicular fatalities. This same concept of computer vision models analyzing image/video input to make decisions is also used in radiology to help doctors diagnose early stages of cancer that are undetectable by the human eye.
+- [AlphaFold](https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery-2020/) has leveled up our ability to predict protein structures, which allows us to better understand how viruses and drugs interact with one another on a molecular level. These breakthroughs have helped us discover new drugs and breakdown novel viruses, including decyphering the infamous SARS-CoV2 spike protein to allow for vaccine rollout at record speed.
+
+For a more in depth comprehensive summary of recent breakthroughs in the deep learning revolution, see Richard Ngo's blog post [here](https://medium.com/@richardcngo/visualizing-the-deep-learning-revolution-722098eb9c5).
+
+Across the board (in every industry) there are a multitude of examples where AI has improved our lives and expanded our ability to solve new problems and better understand the world around us. The approach of building software using training and reward functions to guide neural networks to achieve desired outcomes has been proven to be a valid approach. It's no longer a question if AI is a useful tool - the question now is if the upside potential of this technology is overhyped or not. On the low end of that upside curve, AI is at the very least an incredibly useful tool for solving fuzzy well defined non-deterministic problem spaces that we've previously been unable to crack with algorithms alone. On the high end of the upside curve, AI has to potential to scale up to synthesize all knowledge into a queryable format that can optimize across any problem space and domain (this is AGI, artificial general intelligence).
+
+Since the potential upside of this technology is so huge, AI optimists see it as an asymmetric bet. Asymmetric is the key word here - implying that while downsides exist the upside is so vast with so much impact (so "asymmetric") that it'd be foolish not to ride the wave and risk missing out. By accelerating AI progress, optimists say we can harness these capabilities to expand our understanding of the world and our ability to solve problems. They say we could use this power to cure cancer, prevent aging, and give more individualized information on how to live a "better" life. 
+
+On the extreme optimist side, they even say we can use it to expand our consciousness(!) to find new connections between knowledge domains that humans haven't yet discovered. 
+
+Why are they so optimistic?
+
+The foundation of many peoples faith (outside of the normal financial hype cycle) is the fact that this technology is not limited in it's theoretical ability to scale. In 2017 Google released a research paper called [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf), where they unveiled the transformer architecture (the "T" in ChatGPT) that reframed the AI scaling problem. By breaking up input into chunks (tokens) and utilizing the concept of "attention" to perform context mapping and parallelize inferance, this paper laid the foundation for many of the AI models that we utilize today.
+
+As an extension to the transformer architecture, OpenAI expanded on the AI breakthrough in 2020 by unveiling a research paper titled [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361), where they first proposed the idea that model performance scales inline with compute. In short, more compute and more data in pretraining leads to larger language models that perform better as you scale up the number of parameters they support (their neural net depth and density essentially). 
+
+Using these scaling laws and the transformer architecture as a foundation, OpenAI proved the validity of these scaling laws by leveling up the size of it's GPT models from 2020 --> present day. It's flagship GPT model in that time scaled up from a model of 117M parameters (GPT-1) that could autocomplete sentences to one of over 1.7T parameters (GPT-4) that can code whole projects and generate multi-modal content from scratch. The progress has been rapid and models have improved steadily against benchmarks as their parameter counts, context windows, and training data sets exponentially increase in size.
+
+<insert image of scaling of GPT here>
+
+On this type of exponential growth tradjectory, it's hard to grasp the potential gains that can happen in relatively short amounts of time. If we assume the same scaling laws continue to hold, there is reasonable grounds for AI optimists to be bullish on future generations of technology continuing to level up in capability and outperform previous generations. It's an unknown, but one with a historical trend that has held for multiple years in a row. 
+
+    NOTE: The latest generation of LLMs are starting to focus on [other methods](https://medium.com/@siddantvardey/the-frontier-reasoning-models-scaling-laws-whats-actually-coming-next-93bba260644b) for improving performance outside of just pure scaling laws - things like shifting to inferance and agentic capabilities and utilizing mixture of experts (MoE) instead of a one model to rule them all architecture. Given this, there is some momentum away from the traditional scaling laws in favor of a more holistic scaling approach. It's still early but AI experts, like [Ilya Sutskever](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DaR20FWCCjAs&ved=2ahUKEwi96aDk65aUAxX7CTQIHZ-vHYoQwqsBegQIShAB&usg=AOvVaw1YBDIjspOBe_YaoygUpRKR), are starting to note the shift from scaling to research to discover new approaches to unlock the next phase of growth.
+
+In addition to the models themselves, there are plenty of potential societal-level gains that AI optimists point to as a reason to continue driving the technology forward.
+
+
+
+
+
+
+
+
+
+They believe All of this potential is buoyed by the promise of silican intelligence that can theoretically scale as far as we push it to solve harder and harder problems with more data across higher order dimentional planes.
+
+
+
+
+
+
+, to self-driving models from Tesla and Waymo outperforming a majority of human drivers on the roads in safety metrics, it's no longer in question if AI is a useful tool. The concept of training neural nets has proven itself as an incredibly powerful method to build software to handle fuzzy non-deterministic problem spaces.
+
+
+
+
+ The question now is to what degree and how soon will it get good enough to solve more real world problems.
+
+
+ is the concept of training neural nets to "learn" how to intuitively complete tasks has been proven to be a powerful way to solve real world non-deterministic problems.
+
+In controlled environments there are countless examples of problems where neural nets outperform traditional deterministic algorithms and humans alike. The most famous example of this was with chess, where DeepBlue defeated Gary Kasparov in 1998  
+
+
+to make decisions in the chase of potential rewards  to achieve desired outcomes without needing  algorithmic understanding of the approach unlocks a host of problems that were previously really hard to solve with deterministic logic alone.
+
+ as for the first time in history synthetic machines have the ability to synthesize information and reason to make decisions and solve non-deterministic problems. This capability has already shown itself in many disciplines (from bots like DeepBlue beating Kasparov)
+
+
+It enables us to build solutions without needing to first understand the underlying mat It fits more cleanly into our lives with natural language processing baked into the interface. It is grounded in reality in many ways.
+
+
+AI because both these perspectives, the unbridled optimist and the skeptic, are grounded in truth that can be backed up and 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Big Picture
 
 ## How Capitalism Works?
@@ -129,7 +218,7 @@ This relationship between labor and capital hasn't always been clean, but the ba
 
 With AI, this relationship between labor and capital begins to break down. AI has the potential to not only automate routine tasks, but to rearchitect the concept of human value in the labor-based knowledge economy altogether. 
 
-Historically, the main argument in favor of human value in the workforce has been our ability as humans to use a mix of learned experience and situational data to make decisions and complete complex tasks that are either too hard or too expensive for capital to automate (like hiring humans to install a wiring harness in a car because it's too complex to automate or hiring humans to clean a home because it's faster, cheaper, and more efficient than having manufacturing robots do so).
+Historically, the main argument in favor of human value in the workforce has been our ability as humans to use a mix of learned experience and situational data to make decisions and complete complex tasks that are either too hard or too expensive for capital to automate (tasks like installing wiring harnesses in cars because it's too complex to automate or cleaning homes because it's faster, cheaper, and more efficient than having autonomous robots do so).
 
 To visualize this point, lets take a product manager as an example. A human product manager is very good at deciding what tasks should be prioritized in a sprint and which ones are less important to do right away given the holistic view of the product they are supporting and the long term goals of the product within the organization. To do this job well, a product manager needs *context* (what are the goals of the product? what are the goals of the organization? what is the impact of each task in this sprint if we complete it? etc...) and *knowledge* (proven real world learned examples of how outcome probabilities change based on what and how much is prioritized in a given sprint) to make a decision and take action. Using non-AI based tools, this skill is hard to automate, as it is context-dependent, non-deterministic, and doesn't fit cleanly into a repeatable algorithm. Every scenario is unique and there are human stakeholders involved, so having a human in the loop to manage the process is a net value add.
 
