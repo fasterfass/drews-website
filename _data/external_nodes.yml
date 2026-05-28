@@ -67,7 +67,6 @@
   color: "#f5f5dc"
   edges:
     - post_id: 2026-02-18-a-new-philosophy-on-life
-
 - id: goodreads-fooled-by-randomness
   type: goodreads
   label: "Fooled by Randomness"
@@ -76,6 +75,7 @@
   color: "#f5f5dc"
   edges:
     - post_id: 2026-04-10-simplicity-is-king
+    - post_id: 2026-05-28-my-thoughts-on-ai  
 - id: goodreads-antifragile
   type: goodreads
   label: "Antifragile"
@@ -84,6 +84,7 @@
   color: "#f5f5dc"
   edges:
     - post_id: 2026-04-10-simplicity-is-king
+    - post_id: 2026-05-28-my-thoughts-on-ai  
 - id: goodreads-paradox-of-choice
   type: goodreads
   label: "The Paradox of Choice"
@@ -108,6 +109,7 @@
   color: "#f5f5dc"
   edges:
     - post_id: 2026-04-10-simplicity-is-king
+    - post_id: 2026-05-28-my-thoughts-on-ai  
 - id: goodreads-atomic-habits
   type: goodreads
   label: "Atomic Habits"
@@ -132,6 +134,14 @@
   color: "#f5f5dc"
   edges:
     - post_id: 2026-04-10-simplicity-is-king
+- id: goodreads-utopia-for-realists
+  type: goodreads
+  label: "Utopia for Realists"
+  url: "https://www.goodreads.com/book/show/40876575-utopia-for-realists"
+  icon: "/assets/images/goodreads.svg"
+  color: "#f5f5dc"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai  
 
 # Strava activities where I had important insights
 
@@ -145,3 +155,99 @@
   color: "#ff0000"
   edges:
     - post_id: 2026-02-18-a-new-philosophy-on-life
+- id: youtube-neural-nets
+  type: youtube
+  label: "3Blue1Brown: Neural Nets"
+  url: "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-tesla-ai-day
+  type: youtube
+  label: "Tesla AI Day 2022"
+  url: "https://www.youtube.com/watch?v=ODSJsviD_SU"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-ilya-sutskever
+  type: youtube
+  label: "Ilya Sutskever Dwarkesh Patel Podcast"
+  url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-helen-toner
+  type: youtube
+  label: "Helen Toner: Open AI Debates"
+  url: "https://www.youtube.com/watch?v=dzwi7sm5NR4"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-stuff-made-here
+  type: youtube
+  label: "Stuff Made Here"
+  url: "https://www.youtube.com/@StuffMadeHere"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-big-a-war-in-iran
+  type: youtube
+  label: "Big A: Iran War"
+  url: "https://www.youtube.com/watch?v=Ups6D0KQs5M"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-big-a-anthropic-red-lines-dow
+  type: youtube
+  label: "Big A: Anthropic Red Lines"
+  url: "https://www.youtube.com/watch?v=gwuISEr7L8M"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-big-a-ai-depreciation-reporting
+  type: youtube
+  label: "Big A: AI Depreciation"
+  url: "https://www.youtube.com/watch?v=Z2ljcpT_xhs"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-ray-dalio-how-the-economy-works
+  type: youtube
+  label: "Ray Dalio: How the Economic Machine Works"
+  url: "https://www.youtube.com/watch?v=PHe0bXAIuk0"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-60-mins-ca-high-speed-rail
+  type: youtube
+  label: "60 Minutes: CA High Speed Rail"
+  url: "https://www.youtube.com/watch?v=9Hm0_-bOB4Y"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-bbc-data-center-water-use
+  type: youtube
+  label: "BBC: AI Data Center Water Use"
+  url: "https://www.youtube.com/watch?v=b0C56yqIkbk"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai
+- id: youtube-wef-jensen-huang
+  type: youtube
+  label: "World Economic Forum: Jensen Huang"
+  url: "https://www.youtube.com/watch?v=hzsK2wC2hNk"
+  icon: "/assets/images/youtube.svg"
+  color: "#ff0000"
+  edges:
+    - post_id: 2026-05-28-my-thoughts-on-ai

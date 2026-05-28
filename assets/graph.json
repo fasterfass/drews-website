@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "2026-01-20-my-first-blog-post",
-      "label": "Building a cohesive thruline",
+      "label": "Building a cohesive thruline 〰️",
       "url": "/intro/2026/01/20/my-first-blog-post.html",
       "type": "post",
       "tags": [
@@ -36,6 +36,20 @@
         "thoughts"
       ],
       "date": "2026-04-10T00:00:00.000Z"
+    },
+    {
+      "id": "2026-05-28-my-thoughts-on-ai",
+      "label": "My Thoughts on AI 🧐",
+      "url": "/my-thoughts/2026/05/28/my-thoughts-on-ai.html",
+      "type": "post",
+      "tags": [
+        "ai",
+        "philosophy",
+        "energy",
+        "economy",
+        "thoughts"
+      ],
+      "date": "2026-05-28T00:00:00.000Z"
     },
     {
       "id": "goodreads-the-second-mountain",
@@ -166,9 +180,113 @@
       "color": "#f5f5dc"
     },
     {
+      "id": "goodreads-utopia-for-realists",
+      "label": "Utopia for Realists",
+      "url": "https://www.goodreads.com/book/show/40876575-utopia-for-realists",
+      "type": "goodreads",
+      "icon": "/assets/images/goodreads.svg",
+      "color": "#f5f5dc"
+    },
+    {
       "id": "youtube-how-to-run-100-miles",
       "label": "How to Run 100 Miles",
       "url": "https://www.youtube.com/watch?v=iC7Lh4opLsc&pp=ygUUaG93IHRvIHJ1biAxMDAgbWlsZXPSBwkJ0woBhyohjO8%3D",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-neural-nets",
+      "label": "3Blue1Brown: Neural Nets",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-tesla-ai-day",
+      "label": "Tesla AI Day 2022",
+      "url": "https://www.youtube.com/watch?v=ODSJsviD_SU",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-ilya-sutskever",
+      "label": "Ilya Sutskever Dwarkesh Patel Podcast",
+      "url": "https://www.youtube.com/watch?v=aR20FWCCjAs",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-helen-toner",
+      "label": "Helen Toner: Open AI Debates",
+      "url": "https://www.youtube.com/watch?v=dzwi7sm5NR4",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-stuff-made-here",
+      "label": "Stuff Made Here",
+      "url": "https://www.youtube.com/@StuffMadeHere",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-big-a-war-in-iran",
+      "label": "Big A: Iran War",
+      "url": "https://www.youtube.com/watch?v=Ups6D0KQs5M",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-big-a-anthropic-red-lines-dow",
+      "label": "Big A: Anthropic Red Lines",
+      "url": "https://www.youtube.com/watch?v=gwuISEr7L8M",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-big-a-ai-depreciation-reporting",
+      "label": "Big A: AI Depreciation",
+      "url": "https://www.youtube.com/watch?v=Z2ljcpT_xhs",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-ray-dalio-how-the-economy-works",
+      "label": "Ray Dalio: How the Economic Machine Works",
+      "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-60-mins-ca-high-speed-rail",
+      "label": "60 Minutes: CA High Speed Rail",
+      "url": "https://www.youtube.com/watch?v=9Hm0_-bOB4Y",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-bbc-data-center-water-use",
+      "label": "BBC: AI Data Center Water Use",
+      "url": "https://www.youtube.com/watch?v=b0C56yqIkbk",
+      "type": "youtube",
+      "icon": "/assets/images/youtube.svg",
+      "color": "#ff0000"
+    },
+    {
+      "id": "youtube-wef-jensen-huang",
+      "label": "World Economic Forum: Jensen Huang",
+      "url": "https://www.youtube.com/watch?v=hzsK2wC2hNk",
       "type": "youtube",
       "icon": "/assets/images/youtube.svg",
       "color": "#ff0000"
@@ -187,6 +305,13 @@
       "target": "2026-04-10-simplicity-is-king",
       "tags": [
         "life"
+      ]
+    },
+    {
+      "source": "2026-04-10-simplicity-is-king",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "tags": [
+        "thoughts"
       ]
     },
     {
@@ -245,8 +370,18 @@
       "type": "external"
     },
     {
+      "source": "goodreads-fooled-by-randomness",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
       "source": "goodreads-antifragile",
       "target": "2026-04-10-simplicity-is-king",
+      "type": "external"
+    },
+    {
+      "source": "goodreads-antifragile",
+      "target": "2026-05-28-my-thoughts-on-ai",
       "type": "external"
     },
     {
@@ -265,6 +400,11 @@
       "type": "external"
     },
     {
+      "source": "goodreads-sapiens",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
       "source": "goodreads-atomic-habits",
       "target": "2026-04-10-simplicity-is-king",
       "type": "external"
@@ -280,8 +420,73 @@
       "type": "external"
     },
     {
+      "source": "goodreads-utopia-for-realists",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
       "source": "youtube-how-to-run-100-miles",
       "target": "2026-02-18-a-new-philosophy-on-life",
+      "type": "external"
+    },
+    {
+      "source": "youtube-neural-nets",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-tesla-ai-day",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-ilya-sutskever",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-helen-toner",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-stuff-made-here",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-big-a-war-in-iran",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-big-a-anthropic-red-lines-dow",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-big-a-ai-depreciation-reporting",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-ray-dalio-how-the-economy-works",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-60-mins-ca-high-speed-rail",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-bbc-data-center-water-use",
+      "target": "2026-05-28-my-thoughts-on-ai",
+      "type": "external"
+    },
+    {
+      "source": "youtube-wef-jensen-huang",
+      "target": "2026-05-28-my-thoughts-on-ai",
       "type": "external"
     }
   ]

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Building a cohesive thruline"
+title: "Building a cohesive thruline 〰️"
 author: Drew Fass
 date: 2026-01-20
 categories: [intro]
