@@ -2,7 +2,7 @@
 layout: single
 title: "My Thoughts on AI"
 author: Drew Fass
-date: 2026-05-22
+date: 2026-05-28
 categories: [my-thoughts]
 tags: [ai, philosophy, energy, economy, thoughts]
 excerpt: "What is the impact of AI going to be? How is this technological and hype wave going to play out?"
@@ -13,32 +13,34 @@ header:
 
 ## Making Sense of an AI Driven world
 
-The world is incredibly confusing right now. It's noisy in many different directions and none more than in the direction of AI. This technology is unique in it's ability to reason and automate non-deterministic tasks. Its presence is changing the playing field of our work and is forcing us to collectively question our role in society and reconcile our humanity and our value in real time (often in ways that are hard for us to calculate and understand). 
+The world is incredibly confusing right now. It's noisy in many different directions and none more than in the direction of AI. This technology is unique in its ability to reason and automate non-deterministic tasks. Its presence is changing the playing field of our work and is forcing us to collectively question our role in society and reconcile our humanity and our value in real time (often in ways that are hard for us to calculate and understand).
 
-This post is my attempt to understand this AI transformation at the current moment, my optimism and skepticism around it, and how it applies to my own life. Tackling all sides of the AI transformation is too big of a topic for one post, so this will be my first attempt to break down the meta-view of this technology and it's implications for our world. In future posts, I can break down more nuanced parts of the greater shift and focus more directly on them.
+This post is my attempt to understand this AI transformation at the current moment, my optimism and skepticism around it, and how it applies to my own life. Tackling all sides of the AI transformation is too big of a topic for one post, so this will be my first attempt to break down the meta-view of this technology and its implications for our world. In future posts, I can break down more nuanced parts of the greater shift and focus more directly on them.
 
 Here goes nothing...
 
+
 ## Two-Faced Technology
 
-Right now is a unique moment in time. There is sumultaneously a large group of unbridled AI optimists that believe in the power of this new technology, and a large group of AI skeptics that see it as just another tool that is overhyped and oversold. It's really hard to get an accurate read on who is "right" in this debate because both sides are noisy and have strong arguments grounded in reality. 
+Right now is a unique moment in time. There is simultaneously a large group of unbridled AI optimists that believe in the power of this new technology, and a large group of AI skeptics that see it as just another tool that is overhyped and oversold. It's really hard to get an accurate read on who is "right" in this debate because both sides are noisy and have strong arguments grounded in reality.
 
 Let's get a better understanding of each side of this debate.
+
 
 ## The AI Optimist Lens
 
 From the AI optimist perspective, this technology has been shown to be quite remarkable at solving complex real world problems.
 
 To give a few specific examples:
-- AI Models like [AlphaZero](https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/) have learned (through training deep neural networks via reinforcement learning) to beat the best Chess, Shogi, and Go players in the world while also outperforming traditional algorithmic approaches via ELO (like [IBM's DeepBlue](https://www.ibm.com/history/deep-blue) system). These approaches have now been extended to solve more complex video games like [Starcraft II](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/), [Quake III: Capture the Flag](https://deepmind.google/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/), and [Dota](https://openai.com/index/openai-five-defeats-dota-2-world-champions/) as well. 
+- AI Models like [AlphaZero](https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/) have learned (through training deep neural networks via reinforcement learning) to beat the best Chess, Shogi, and Go players in the world while also outperforming traditional algorithmic approaches via ELO (like [IBM's DeepBlue](https://www.ibm.com/history/deep-blue) system). These approaches have now been extended to solve more complex video games like [Starcraft II](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/), [Quake III: Capture the Flag](https://deepmind.google/blog/capture-the-flag-the-emergence-of-complex-cooperative-agents/), and [Dota](https://openai.com/index/openai-five-defeats-dota-2-world-champions/) as well.
 - Self driving cars like [Tesla](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DODSJsviD_SU&ved=2ahUKEwiPms-u35aUAxXsDTQIHcLaO0QQwqsBegQIFxAB&usg=AOvVaw3B-f2QSphRP0lxg-xyZ8Xw) and [Waymo](https://waymo.com/safety/impact/) use computer-vision and path planning models to outperform humans on the road, leading to an overall reduction in collisions and vehicular fatalities in areas where they are deployed. This same concept of utilizing computer vision models to analyze image/video input to make decisions is also used by radiologists to diagnose early stages of cancer that are undetectable to the human eye.
-- Biological AI models like [AlphaFold](https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery-2020/) and [AlphaProteo](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/) have leveled up our ability to predict protein structures, which provide a better baseline for understanding how viruses and drugs interact with one another at a molecular level. These breakthroughs have helped us discover new drugs and breakdown novel viruses, including decyphering the infamous SARS-CoV2 spike protein from the 2020 Covid pandemic to allow for vaccine rollout at record speed. The progress was substantial enough to win its creators the [2024 Nobel Prize in Chemistry](https://www.nobelprize.org/prizes/chemistry/2024/summary/).
+- Biological AI models like [AlphaFold](https://deepmind.google/blog/alphafold-using-ai-for-scientific-discovery-2020/) and [AlphaProteo](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/) have leveled up our ability to predict protein structures, which provide a better baseline for understanding how viruses and drugs interact with one another at a molecular level. These breakthroughs have helped us discover new drugs and break down novel viruses, including deciphering the infamous SARS-CoV2 spike protein from the 2020 Covid pandemic to allow for vaccine rollout at record speed. The progress was substantial enough to win its creators the [2024 Nobel Prize in Chemistry](https://www.nobelprize.org/prizes/chemistry/2024/summary/).
 - Financial AI models like [Stripe Radar](https://stripe.com/resources/more/how-machine-learning-works-for-payment-fraud-detection-and-prevention) are used to monitor payment traffic to mitigate fraud risk while enabling a more frictionless payments experience. AI tools open the door to mitigating risks in real time at a scale human attention can't compete with.
-- AI coding tools like [claude code](https://claude.com/product/claude-code?utm_source=google&utm_medium=paid_search_coder&utm_campaign=acq_code_us_q3&utm_term=ai%20development%20agent&gclsrc=aw.ds&gad_source=1&gad_campaignid=22795617257&gbraid=0AAAAA99jmquHWGPT26DesV2nq2594YOZt&gclid=CjwKCAjwt7XQBhBkEiwAtStpp0xP7fMyINyWchPwR9M2hpVByTrOVzy-pJh8KOjQHJAjZBAztpcnyhoCwjoQAvD_BwE), [codex](https://chatgpt.com/codex/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_X_SEM_GBR_Codex_CDX_BAU_ACQ_PER_DMA_ALL_NAMER_US_EN_031826&c_id=23655882150&c_agid=197861433244&c_crid=807850089496&c_kwid=kwd-1412158414737&c_ims=&c_pms=9031952&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=23655882150&gbraid=0AAAAA-I0E5e3UZIN9V2LRIGvGAklWPTc9&gclid=CjwKCAjwt7XQBhBkEiwAtStpp7SdZvMeq7LzXk5SajGlkQJZlJgCbk46WGVIDNptlvAQcWvWf8jSGxoCjX0QAvD_BwE), and [cursor](https://cursor.com/product) are completing increasingly complex agentic coding tasks while multiplying the throughput of engineering organizations by making it easier for them to translate natural language requests into compilable code. 
+- AI coding tools like [claude code](https://claude.com/product/claude-code?utm_source=google&utm_medium=paid_search_coder&utm_campaign=acq_code_us_q3&utm_term=ai%20development%20agent&gclsrc=aw.ds&gad_source=1&gad_campaignid=22795617257&gbraid=0AAAAA99jmquHWGPT26DesV2nq2594YOZt&gclid=CjwKCAjwt7XQBhBkEiwAtStpp0xP7fMyINyWchPwR9M2hpVByTrOVzy-pJh8KOjQHJAjZBAztpcnyhoCwjoQAvD_BwE), [codex](https://chatgpt.com/codex/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_X_SEM_GBR_Codex_CDX_BAU_ACQ_PER_DMA_ALL_NAMER_US_EN_031826&c_id=23655882150&c_agid=197861433244&c_crid=807850089496&c_kwid=kwd-1412158414737&c_ims=&c_pms=9031952&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=23655882150&gbraid=0AAAAA-I0E5e3UZIN9V2LRIGvGAklWPTc9&gclid=CjwKCAjwt7XQBhBkEiwAtStpp7SdZvMeq7LzXk5SajGlkQJZlJgCbk46WGVIDNptlvAQcWvWf8jSGxoCjX0QAvD_BwE), and [cursor](https://cursor.com/product) are completing increasingly complex agentic coding tasks while multiplying the throughput of engineering organizations by making it easier for them to translate natural language requests into compilable code.
 
 For a more in depth comprehensive summary of recent breakthroughs in the deep learning revolution, I'd recommend reading Richard Ngo's blog post [here](https://medium.com/@richardcngo/visualizing-the-deep-learning-revolution-722098eb9c5).
 
-Across the board (in every industry) there are a multitude of examples where AI has improved our lives and expanded our ability to solve new problems and better understand the world around us. The approach of building software by utilizing training and reward functions to guide neural networks to achieve desired outcomes has been proven to be a valid approach. It's no longer a question if AI is a useful tool - the question now is if the upside potential of this technology is overhyped or not relative to the potential downsides of opening Pandora's Box. On the low end of that upside curve, AI is at the very least an incredibly useful tool for solving fuzzy well defined non-deterministic problem spaces that we've previously been unable to crack with algorithms alone. On the high end of the upside curve, AI has to potential to scale up to synthesize all knowledge into a queryable format that can generalize to any problem space and domain (this is the concept of [AGI](https://cloud.google.com/discover/what-is-artificial-general-intelligence), artificial general intelligence and [ASI](https://www.ibm.com/think/topics/artificial-superintelligence), artificial super intelligence).
+Across the board (in every industry) there are a multitude of examples where AI has improved our lives and expanded our ability to solve new problems and better understand the world around us. The approach of building software by utilizing training and reward functions to guide neural networks to achieve desired outcomes has been proven to be a valid approach. It's no longer a question if AI is a useful tool - the question now is if the upside potential of this technology is overhyped or not relative to the potential downsides of opening Pandora's Box. On the low end of that upside curve, AI is at the very least an incredibly useful tool for solving fuzzy well defined non-deterministic problem spaces that we've previously been unable to crack with algorithms alone (otherwise known as [ANI](https://www.coursera.org/articles/what-is-artificial-narrow-intelligence), artificial narrow intelligence). On the high end of the upside curve, AI has to potential to scale up to synthesize all knowledge into a queryable format that can generalize to any problem space and domain (this is the concept of [AGI](https://cloud.google.com/discover/what-is-artificial-general-intelligence), artificial general intelligence and [ASI](https://www.ibm.com/think/topics/artificial-superintelligence), artificial super intelligence).
 
 Since the potential upside of AGI/ASI is so huge, AI optimists see investing in the acceleration of AI today as an asymmetric bet. **Asymmetric** is the key word here - implying that while downsides exist the upsides are so vast with such a large potential impact (so "asymmetric") that they outweigh any negative externalities that happen along the way. In an AI optimist's eyes it'd be foolish not to ride the wave and risk becoming obsolete by missing out on the next technological revolution. If this new technology has even a 1% chance to exceed human knowledge, rearchitect economies, and re-augment human consciousness, they believe it'd be crazy not to invest to at least hedge the risk of missing out on the gold rush.
 
@@ -46,29 +48,29 @@ Ok, makes sense when viewed through a game theory lens... but **why** are these 
 
 ### AI Scaling Laws
 
-The foundation of many peoples faith (outside of the normal financial hype cycle) is the fact that this technology is not limited in it's theoretical ability to scale. In 2017 Google released a research paper called [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf), where they unveiled the transformer architecture (the "T" in ChatGPT) that reframed the AI scaling problem. By breaking up input into chunks (tokens) and utilizing the concept of ["attention"](https://en.wikipedia.org/wiki/Attention_(machine_learning)) to perform context mapping and parallelized inferance, this paper laid the foundation for many of the AI models that we utilize today.
+The foundation of many peoples faith (outside of the normal financial hype cycle) is the fact that this technology is not limited in it's theoretical ability to scale. In 2017 Google released a research paper called [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf), where they unveiled the transformer architecture (the "T" in ChatGPT) that reframed the AI scaling problem. By breaking up input into chunks (tokens) and utilizing the concept of ["attention"](https://en.wikipedia.org/wiki/Attention_(machine_learning)) to perform context mapping and parallelized inference, this paper laid the foundation for many of the AI models that we utilize today.
 
-As an extension to the transformer architecture, OpenAI expanded on the breakthrough in 2020 by unveiling a research paper titled [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361) (note that Dario Amadai, the Anthropic CEO, is one of the creators), where they first proposed the idea that model performance scales inline with compute. In short, more compute and more data in pretraining runs leads to large language models that perform better against benchmarks as you scale up the number of parameters they support (their neural net depth and density essentially). 
+As an extension to the transformer architecture, OpenAI expanded on the breakthrough in 2020 by unveiling a research paper titled [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361) (note that Dario Amadai, the Anthropic CEO, is one of the creators), where they first proposed the idea that model performance scales inline with compute. In short, more compute and more data in pretraining runs leads to large language models that perform better against benchmarks as you scale up the number of parameters they support (their neural net depth and density essentially).
 
-Using these scaling laws and the transformer architecture as a foundation, OpenAI proved the validity of these scaling laws by leveling up the size of it's GPT models from 2020 to present day. It's flagship GPT model in that time scaled up from a model of 117M parameters (GPT-1) that could autocomplete sentences to one of over 1.7T parameters (GPT-4) that can code whole projects and generate multi-modal content from scratch. Bigger models, more compute, better results. The progress has been rapid and models have improved steadily against benchmarks as their parameter counts, context windows, and training data sets exponentially increase in size.
+Using these scaling laws and the transformer architecture as a foundation, OpenAI proved the validity of these scaling laws by leveling up the size of its GPT models from 2020 to present day. Its flagship GPT model in that time scaled up from a model of 117M parameters (GPT-1) that could autocomplete sentences to one of over 1.7T parameters (GPT-4) that can code whole projects and generate multi-modal content from scratch. Bigger models, more compute, better results. The progress has been rapid and models have improved steadily against benchmarks as their parameter counts, context windows, and training data sets exponentially increase in size.
 
 <insert image of scaling of GPT here>
 
-On this type of exponential growth tradjectory, it's hard to grasp the potential gains that can happen in relatively short amounts of time. If we assume the same scaling laws continue to hold, there is reasonable grounds for AI optimists to be bullish on future generations of technology continuing to level up in capability and outperform previous generations (at an increasingly exponential rate). It's an unknown, but one with a historical trend that has held for multiple years in a row and shows no obvious sign of slowing down. 
+On this type of exponential growth trajectory, it's hard to grasp the potential gains that can happen in relatively short amounts of time. If we assume the same scaling laws continue to hold, there is reasonable grounds for AI optimists to be bullish on future generations of technology continuing to level up in capability and outperform previous generations (at an increasingly exponential rate). It's an unknown, but one with a historical trend that has held for multiple years in a row and shows no obvious sign of slowing down.
 
-*NOTE*: The latest generation of LLMs are starting to focus on [other methods](https://medium.com/@siddantvardey/the-frontier-reasoning-models-scaling-laws-whats-actually-coming-next-93bba260644b) for improving performance outside of just pure scaling laws - things like shifting to inferance and agentic capabilities and utilizing [mixture of experts (MoE)](https://huggingface.co/blog/moe) instead of a one model to rule them all architecture. Given this, there is some momentum away from the traditional scaling laws in favor of a more holistic scaling approach. It's still early but AI experts, like [Ilya Sutskever](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DaR20FWCCjAs&ved=2ahUKEwi96aDk65aUAxX7CTQIHZ-vHYoQwqsBegQIShAB&usg=AOvVaw1YBDIjspOBe_YaoygUpRKR), are starting to note the shift from scaling to research to discover new approaches to unlock the next phase of growth. This may impact the exponential growth tradjectory (if AI runs out of room in it's current "branch" to continue scaling), but it's too early to tell.
+*NOTE*: The latest generation of LLMs are starting to focus on [other methods](https://medium.com/@siddantvardey/the-frontier-reasoning-models-scaling-laws-whats-actually-coming-next-93bba260644b) for improving performance outside of just pure scaling laws - things like shifting to inferance and agentic capabilities and utilizing [mixture of experts (MoE)](https://huggingface.co/blog/moe) instead of a one model to rule them all architecture. Given this, there is some momentum away from the traditional scaling laws in favor of a more holistic scaling approach. It's still early but AI experts, like [Ilya Sutskever](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DaR20FWCCjAs&ved=2ahUKEwi96aDk65aUAxX7CTQIHZ-vHYoQwqsBegQIShAB&usg=AOvVaw1YBDIjspOBe_YaoygUpRKR), are starting to note the shift from scaling to research to discover new approaches to unlock the next phase of growth. This may impact the exponential growth tradjectory (if AI runs out of room in it's [current "branch"](https://www.youtube.com/watch?v=dzwi7sm5NR4) to continue scaling), but it's too early to tell.
 
 ### Abundance
 
-In addition to the models themselves, AI optimists also point to many non-technical reasons to be optimistic about AI advancement. First and foremost is the potential to create a world of *abundance* instead of a world of scarcity. 
+In addition to the models themselves, AI optimists also point to many non-technical reasons to be optimistic about AI advancement. First and foremost is the potential to create a world of *abundance* instead of a world of scarcity.
 
-In an AI context, *abundance* refers to a future where our automation (leveraging the power of AI models) is so ubiquitous that we can provide the goods and services that people rely on at essentially zero cost. If AI can do all the work (both knowledge-based and manual labor), there is no need to incentivize any human to work (via providing them money/power/etc) and thus no labor cost needed to achieve the desired outcome (outside of the ammortized cost of the AI automation tools and the power supply needed to run them). When supply is so vast relative to demand, price drops to near zero which fundamentally changes the dynamics of the society we live in today.
+In an AI context, *abundance* refers to a future where our automation (leveraging the power of AI models) is so ubiquitous that we can provide the goods and services that people rely on at essentially zero cost. If AI can do all the work (both knowledge-based and manual labor), there is no need to incentivize any human to work (via providing them money/power/etc) and thus no labor cost needed to achieve the desired outcome (outside of the amortized cost of the AI automation tools and the power supply needed to run them). When supply is so vast relative to demand, price drops to near zero which fundamentally changes the dynamics of the society we live in today.
 
-One example of these changing dynamics can be seen through how supply-side *abundance* can directly reduce human suffering by actively removing incentives for conflict in the first place.  Historically, most human conflict is caused by people fighting over scare resources. Countries often fight wars over access to oil, rare earth minerals, or land. All three of these causes are scarcity-based. If we had more oil in the world, there may be less incentive to fight over it. If our housing supply was more abundant on the land we have, there may be less need to fight other people for control over their plot. Removing scarcity from supply-constrained problems fundamentally changes the incentives of conflict that play out above it. It doesn't solve all problems, but it definitely solves some - think about how an abundance of money solves money-related problems, but doesn't necessarily fix all the problems in a person's life.
+One example of these changing dynamics can be seen through how supply-side *abundance* can directly reduce human suffering by actively removing incentives for conflict in the first place. Historically, a solid chunk of human conflict is caused by people fighting over scare resources. Countries often fight wars over access to oil, rare earth minerals, or land. All three of these causes are scarcity-based. If we had more oil in the world, there may be less incentive to fight over it. If our housing supply was more abundant on the land we have, there may be less need to fight other people for control over their plot. Removing scarcity from supply-constrained problems fundamentally changes the incentives of conflict that play out above it. It doesn't solve all problems, but it definitely solves some - think about how an abundance of money solves money-related problems, but doesn't necessarily fix all the problems in a person's life.
 
 *NOTE*: There are many examples of supply-constrained problems leading to conflict in our present day. Currently, as I write this, there is a war between the US and Iran leading to [higher oil prices](https://www.youtube.com/watch?v=Ups6D0KQs5M) from the Straight of Hormuz being closed. This alone has spiked oil prices to north of $100/barrel which has led to higher gas prices at the pump for people around the world. Higher gas prices then indirectly impact the price of manufacturing and shipping goods and services thus leading to a rising cost of living across the board. All this originating (largely) from fights over a scarce resource (oil).
 
-Abundance provides a more level playing field for everyone to operate within. Less power games. Less extrinsic hurdles to achieve. More freedom for people to live lives more aligned with their personal goals and desires. It [simplifies](https://www.drewfass.com/my-thoughts/2026/04/10/simplicity-is-king.html) our collective ability to provide a level playing field for everyone and to give people the ability to center their lives around humanity instead of productivity. AI, if it continues to advance at it's current pace, has the potential to enable this future for all of us.
+Abundance provides a more level playing field for everyone to operate within. Less power games. Less extrinsic hurdles to achieve. More freedom for people to live lives more aligned with their personal goals and desires. It [simplifies](https://www.drewfass.com/my-thoughts/2026/04/10/simplicity-is-king.html) our collective ability to provide a level playing field for everyone and to give people the ability to center their lives around humanity instead of productivity. AI, if it continues to advance at its current pace, has the potential to enable this future for all of us.
 
 ### Immortality
 
@@ -76,51 +78,52 @@ Another common reason for AI optimism (related to the pace of innovation) is it'
 
 Wow... immortality?! Why do they think this will happen?
 
-It's a big claim, but the reasoning behind it is fairly simple. While the human body is incredibly complex at the end of the day it's just another system, and all systems, with enough data and enough knowledge (and a performant enough AI supercomputer) can be solved.Truth is we already frequently manipulate the human biological system in an attempt to elicit desired outcomes. We drink caffine when we're tired to improve our mental acuity and awareness. We take statins when we have high blood pressure to lower our risk of heart attack and stroke. The drugs we discover and the vaccines we create work by triggering pathways to manipulate our biological systems into responding in a way to counteract issues and bring us back to homeostasis. Why then, AI optimists reason, could we not expect that AI models could improve our ability to understand and manipulate the human biological system? 
+It's a big claim, but the reasoning behind it is fairly simple. While the human body is incredibly complex at the end of the day it's just another system, and all systems, with enough data and enough knowledge (and a performant enough AI supercomputer) can be solved.Truth is we already frequently manipulate the human biological system in an attempt to elicit desired outcomes. We drink caffeine when we're tired to improve our mental acuity and awareness. We take statins when we have high blood pressure to lower our risk of heart attack and stroke. The drugs we discover and the vaccines we create work by triggering pathways to manipulate our biological systems into responding in a way to counteract issues and bring us back to homeostasis. Why then, AI optimists reason, could we not expect that AI models could improve our ability to understand and manipulate the human biological system?
 
-If AI models are already on an exponential knowledge growth tradjectory towards super intelligence (ASI), can we not assume that future generations of AI models would be able to "solve" the human system better than humans could with the tools we have available to us today? Future models would understand chemistry and biology better than any individual human would, and would thus be able to simulate compounds and chemical reactions better than any human could in a lab. AI models are already good today to win [Nobel Prizes](https://www.nobelprize.org/prizes/chemistry/2024/summary/). Give a few more years of exponential growth and they may be able to architect compounds beyond what our top biologists and chemists can even fathom today.
+If AI models are already on an exponential knowledge growth trajectory towards super intelligence (ASI), can we not assume that future generations of AI models would be able to "solve" the human system better than humans could with the tools we have available to us today? Future models would understand chemistry and biology better than any individual human would, and would thus be able to simulate compounds and chemical reactions better than any human could in a lab. AI models are already good today to win [Nobel Prizes](https://www.nobelprize.org/prizes/chemistry/2024/summary/). Give a few more years of exponential growth and they may be able to architect compounds beyond what our top biologists and chemists can even fathom today.
 
-Beyond the raw intelligence of the core AI models, there is also an argument that having more experiments running in parallel (and in simulation) will let us explore more biological possibilities than we can today and thus increase our odds of discovering new ways to improve the human condition. Even if AI models never got better than they are today, their ability to act as artifical chemists and artificial biologists studying leveraging all recorded human knowledge to test how various compounds react with one another is enough to have an impact when parallelized across millions of experiments at the same time. Most medical breakthroughs historically occur due to a combination of prior *knowledge* and *luck* occuring at the right place at the right time. Penecillin, the most widely used antibiotic in the world, was [discovered by accident](https://www.healio.com/news/endocrinology/20120325/penicillin-an-accidental-discovery-changed-the-course-of-medicine) after Sir Alexander Fleming left out a staphylococcus culture plate sample while on a two week vacation only to return to find "mold" (penecillin) on his petri dish. Without Fleming forgetting to clean up his lab bench, we may have not discovered penecillin for many years (if not decades or generations). This is not an uncommon phenomenon in scientific discovery either. There have been a [multitude of other examples](https://www.xprize.org/news/ten-major-breakthroughs-that-were-happy-accidents) where the accidents have lead to breakthroughs. With that background, it's fair to assume that even with today's technology if we could leverage AI to run parallelized experiments with artificial chemist and biologists overseeing the process, the sheer number of trials would likely stumble across some "happy accidents" that could lead to combatting human suffering and disease.
+Beyond the raw intelligence of the core AI models, there is also an argument that having more experiments running in parallel (and in simulation) will let us explore more biological possibilities than we can today and thus increase our odds of discovering new ways to improve the human condition. Even if AI models never got better than they are today, their ability to act as artificial chemists and artificial biologists studying leveraging all recorded human knowledge to test how various compounds react with one another is enough to have an impact when parallelized across millions of experiments at the same time. Most medical breakthroughs historically occur due to a combination of prior *knowledge* and *luck* occurring at the right place at the right time. Penicillin, the most widely used antibiotic in the world, was [discovered by accident](https://www.healio.com/news/endocrinology/20120325/penicillin-an-accidental-discovery-changed-the-course-of-medicine) after Sir Alexander Fleming left out a staphylococcus culture plate sample while on a two week vacation only to return to find "mold" (penicillin) on his petri dish. Without Fleming forgetting to clean up his lab bench, we may have not discovered penicillin for many years (if not decades or generations). This is not an uncommon phenomenon in scientific discovery either. There have been a [multitude of other examples](https://www.xprize.org/news/ten-major-breakthroughs-that-were-happy-accidents) where the accidents have led to breakthroughs. With that background, it's fair to assume that even with today's technology if we could leverage AI to run parallelized experiments with artificial chemists and biologists overseeing the process, the sheer number of trials would likely stumble across some "happy accidents" that could lead to combatting human suffering and disease.
 
 And, as a reminder, that is just if AI stays the same as it is today. If it continues to grow exponentially, then the theoretical limit is the number of data centers we can bring on line and how much energy we can generate to power them. The world would be our oyster and the human biological system may finally be solved. We may finally be able to counter biology and find a way to make ourselves immortal (if we choose to be).
 
-*NOTE*: For a deeper dive on this topic please see Dario Amodei's ["Machines of Loving Grace"](https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health) paper and Tim Urbans two part breakdown of AI on his blog [wait but why](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html).
+*NOTE*: For a deeper dive on this topic please see Dario Amodei's ["Machines of Loving Grace"](https://darioamodei.com/essay/machines-of-loving-grace#1-biology-and-health) paper and Tim Urban's two part breakdown of AI on his blog [wait but why](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-2.html).
 
 ### Proliferation of Democratic Values
 
-Lastly, AI optimists often point to the inevitability of the technology as a rationalization that it's important to rush to ensure this powerful technology isn't shaped by an adversarial non-democratic entity (primarily China). This is another asymmetric bet, this time on the risk mitigation front and one based primarily in fear. China has a history of [surveilling it's citizens](https://en.wikipedia.org/wiki/Mass_surveillance_in_China) and a top down communist structure that has been known to stiffle individual freedoms in favor of group conformity. If we were to let them "win" the AI race, they would have leverage to shape the future of our world and thus would likely put our individual freedoms (like privacy, autonomy, and liberty) in jeopardy. Thus, due to this imminent threat, AI optimists believe that playing defense by rushing to obtain control is worth the risks and negative externalities we'll face along the way. 
+Lastly, AI optimists often point to the inevitability of the technology as a rationalization that it's important to rush to ensure this powerful technology isn't shaped by an adversarial non-democratic entity (primarily China). This is another asymmetric bet, this time on the risk mitigation front and one based primarily in fear. China has a history of [surveilling its citizens](https://en.wikipedia.org/wiki/Mass_surveillance_in_China) and a top down communist structure that has been known to stifle individual freedoms in favor of group conformity. If we were to let them "win" the AI race, they would have leverage to shape the future of our world and thus would likely put our individual freedoms (like privacy, autonomy, and liberty) in jeopardy. Thus, due to this imminent threat, AI optimists believe that playing defense by rushing to obtain control is worth the risks and negative externalities we'll face along the way.
 
 It's effectively a race to the bottom, but one AI optimists say we can't avoid and therefore must win at all costs.
 
 Ok... that's enough optimism and hope-ium for one day. Let's take a look at the darker side of AI.
 
+
 ## The AI Pessimist Lens
 
-From the AI pessimist perspective, the AI revolution (while undoubtedly a valuable technology) is overhyped and shaped more like a traditional ["bubble"](https://en.wikipedia.org/wiki/Economic_bubble) than an overhaul of society as we know it. Pessimists generally believe that the short term benefits of the technology are overblown relative to the cost of it (in both a financial and societal sense), and that the long term risks aren't given the time and space they deserve to thoughtfully leverage this new tool to society's overall benefit. 
+From the AI pessimist perspective, the AI revolution (while undoubtedly a valuable technology) is overhyped and shaped more like a traditional ["bubble"](https://en.wikipedia.org/wiki/Economic_bubble) than an overhaul of society as we know it. Pessimists generally believe that the short term benefits of the technology are overblown relative to the cost of it (in both a financial and societal sense), and that the long term risks aren't given the time and space they deserve to thoughtfully leverage this new tool to society's overall benefit.
 
 Let's dive deeper...
 
 ### History Repeating Itself
 
-One of the primary reasons AI pessimists are skeptical is that while technology may change over time, human nature generally tends to stays the same. This is not the first time we've had a technical revolution at this scale, and as such we have plenty of past examples to lean on to see how human technology trends normally play out.
+One of the primary reasons AI pessimists are skeptical is that while technology may change over time, human nature generally tends to stay the same. This is not the first time we've had a technical revolution at this scale, and as such we have plenty of past examples to lean on to see how human technology trends normally play out.
 
-Generally speaking, history shows us that people are keen on riding hype cycles in search of getting rich off the back of innovation. From the [tulip bubble](https://www.investopedia.com/terms/d/dutch_tulip_bulb_market_bubble.asp) in the 17th century to the relatively recent [2008 financial crisis](https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp), humans have a illustrious history of underestimating risk and overestimating potential returns. The world is too complex to fully understand thus people fill in the gaps with their own views based off of narratives and incentives (what they hope to be true) instead of reality. AI pessimists see the AI revolution as being no different. Humans are going to do what humans do (see Ray Dalio's ["How the Economy Works"](https://www.youtube.com/watch?v=PHe0bXAIuk0)). AI is just a new flavor of the same cycle we've seen play out time and again at a larger scale, where people overinflate the hype cycle in search of profits before it crashes back down to reality. They argue that while the trend is hard to see in real time, in hindsight it becomes obvious how the narratives driving AI sentiment are misguided, overstated, and in some cases plain lies that have diverged from reality altogether.
+Generally speaking, history shows us that people are keen on riding hype cycles in search of getting rich off the back of innovation. From the [tulip bubble](https://www.investopedia.com/terms/d/dutch_tulip_bulb_market_bubble.asp) in the 17th century to the relatively recent [2008 financial crisis](https://www.investopedia.com/articles/economics/09/financial-crisis-review.asp), humans have an illustrious history of underestimating risk and overestimating potential returns. The world is too complex to fully understand, thus people fill in the gaps with their own views based on narratives and incentives (what they hope to be true) instead of reality. AI pessimists see the AI revolution as being no different. Humans are going to do what humans do (see Ray Dalio's ["How the Economy Works"](https://www.youtube.com/watch?v=PHe0bXAIuk0)). AI is just a new flavor of the same cycle we've seen play out time and again at a larger scale, where people overinflate the hype cycle in search of profits before it crashes back down to reality. They argue that while the trend is hard to see in real time, in hindsight it becomes obvious how the narratives driving AI sentiment are misguided, overstated, and in some cases plain lies that have diverged from reality altogether.
 
-If we look more clearly at the current moment, there are plenty of examples where cracks in the AI foundation are starting to appear and where the narrative is diverging from reality. 
+If we look more clearly at the current moment, there are plenty of examples where cracks in the AI foundation are starting to appear and where the narrative is diverging from reality.
 
 At this point in time, some examples of this include...
 
-### The AI Data Center Build Out 
+### The AI Data Center Build Out
 
-In late 2024 / early 2025 big tech companies and leading AI frontier labs pushed to build out more AI data centers to increase the countries available compute capacity in the aims of staying ahead of China in the AI arms race. There are many AI data center projects in flight currently, but the largest ones include the [Stargate project](https://openai.com/index/announcing-the-stargate-project/) (via a US govt, OpenAI, and Microsoft partnership) and xAI's [Colossus project](https://x.ai/colossus) based in Tennessee. The main theory with these projects is that AI scaling laws will favor those with the largest models, and thus the largest computers and the best AI chips. By building bigger datacenters, the logic follows that the US would give itself the best chance at creating more powerful models, thus increasing its likelihood of winning the race. 
+In late 2024 / early 2025 big tech companies and leading AI frontier labs pushed to build out more AI data centers to increase the country's available compute capacity in the aims of staying ahead of China in the AI arms race. There are many AI data center projects in flight currently, but the largest ones include the [Stargate project](https://openai.com/index/announcing-the-stargate-project/) (via a US govt, OpenAI, and Microsoft partnership) and xAI's [Colossus project](https://x.ai/colossus) based in Tennessee. The main theory with these projects is that AI scaling laws will favor those with the largest models, and thus the largest computers and the best AI chips. By building bigger datacenters, the logic follows that the US would give itself the best chance at creating more powerful models, thus increasing its likelihood of winning the race.
 
-The costs of these data centers is substantial. To put it in perspective, over the next 5 years or so there is an estimated [~$5T](https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out) being dumped into these AI data center projects. That's enough investment to prop up the US economy. If we were to remove the AI data center investment related growth, the US Fed's GPD metrics show that the US would've entered a [recession](https://fortune.com/2025/10/07/data-centers-gdp-growth-zero-first-half-2025-jason-furman-harvard-economist/) in the first half of 2025. To make things more volatile, the Fed's GDP report from 2025 doesn't take into account the recent price hikes of materials and trade due to tariffs and the war in the middle east. Prices of building materials and shipping is climbing at a point where demand is outstripping supply, thus leading to inflated construction costs and [substantial data center project delays and/or full project cancellations](https://www.datacenterknowledge.com/energy-power-supply/why-ai-data-center-projects-face-years-of-delays-after-approval). At this point in time, about half of the new data center projects have been cancelled or delayed.
+The costs of these data centers are substantial. To put it in perspective, over the next 5 years or so there is an estimated [~$5T](https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out) being dumped into these AI data center projects. That's enough investment to prop up the US economy. If we were to remove the AI data center investment related growth, the US Fed's GDP metrics show that the US would've entered a [recession](https://fortune.com/2025/10/07/data-centers-gdp-growth-zero-first-half-2025-jason-furman-harvard-economist/) in the first half of 2025. To make things more volatile, the Fed's GDP report from 2025 doesn't take into account the recent price hikes of materials and trade due to tariffs and the war in the middle east. Prices of building materials and shipping is climbing at a point where demand is outstripping supply, thus leading to inflated construction costs and [substantial data center project delays and/or full project cancellations](https://www.datacenterknowledge.com/energy-power-supply/why-ai-data-center-projects-face-years-of-delays-after-approval). At this point in time, about half of the new data center projects have been cancelled or delayed.
 
 Higher costs and longer timelines reduce our odds of winning the AI race, making skeptics question why we don't use those funds on more proven investments that benefit the average US citizen instead (things like improving transit options, universal healthcare, and investing in education via expanding programs like food stamps to keep kids in schools). It's too early to tell which way this will break, but there is good reason to believe that what does actually get built will come in late and well over budget.
 
 ### The Trillion Dollar AI Scaling Laws Assumption
 
-On top of the financial cost, it's important to note that the AI data center investments bank on a core assumption: *that AI scaling laws will continue to hold steady in the near future*. 
+On top of the financial cost, it's important to note that the AI data center investments bank on a core assumption: *that AI scaling laws will continue to hold steady in the near future*.
 
 While it's potentially true that AI scaling laws will hold (and thus larger datacenters would allow us to build larger more performant models), that statement is an assumption that is not guaranteed to pan out. [DeepSeek](https://medium.com/@social_18794/deepseek-v4-pricing-20-50x-cheaper-than-openai-cost-breakdown-36bc80a70a1b) has proven that even without the best hardware or the largest datacenters, they can still create performant models that score well on benchmarks at a fraction of the cost of US-based frontier models. If it starts to become obvious that AI scaling laws are misunderstood or do not scale exponentially beyond a certain point inline with compute, the costs of these new AI data centers will outweigh the gains they provide. Currently, there is not enough productivity gain in the AI economy to counteract the cost of these projects (both from a data center buildout perspective and from an energy consumption perspective). Studies have shown that most AI pilot initiatives fail (up to [95%](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/) of them as of 2025). Even if AI does begin to take over a larger share of the economic pie, if it doesn't exponentially grow in capabilities to a point where the productivity starts showing measurable gains across every industry, there is a risk that this investment will not pay off (at least not for the average American or the economy at large).
 
@@ -128,49 +131,49 @@ For the sake of argument (and this blog post), let's say the AI scaling laws do 
 
 ### Climate Impacts
 
-For starters, data centers use energy... *A LOT* of energy. For scale, "one data center campus with a peak demand of one gigawatt (GW) is equivalent to the annual consumption of 1.8 million people, more than the city of San Antonio. Each of the seven proposed Stargate Project sites is being constructed to consume at least 1GW of electricity, with a total project goal of 10GW" (quote from [MediaJustice](https://mediajustice.org/wp-content/uploads/2025/12/Stargate-Project-SW-Fact-Sheet-FINAL.pdf)). To put that in context, the US had 5,426 data centers nationally as of March 2025 that collectively consumed [17GW of power in 2022, with 56% of that power coming from fossil fuels](https://www.eesi.org/articles/view/data-center-energy-needs-are-upending-power-grids-and-threatening-the-climate). These new data center projects would increase the total energy usage of data centers in the US from ~4% currently to around ~12% of national energy consumption by 2030 (with a total power consumption estimate of ~130 GW). With AI token usage growing exponentially year over year and our tendency as humans to utilize whatever resources we have available to us (see [Javon's Paradox](https://en.wikipedia.org/wiki/Jevons_paradox)), AI training and inference loads will continue to get larger as usage grows and as we scale up to larger models with more parameters and higher costs. 
+For starters, data centers use energy... *A LOT* of energy. For scale, "one data center campus with a peak demand of one gigawatt (GW) is equivalent to the annual consumption of 1.8 million people, more than the city of San Antonio. Each of the seven proposed Stargate Project sites is being constructed to consume at least 1GW of electricity, with a total project goal of 10GW" (quote from [MediaJustice](https://mediajustice.org/wp-content/uploads/2025/12/Stargate-Project-SW-Fact-Sheet-FINAL.pdf)). To put that in context, the US had 5,426 data centers nationally as of March 2025 that collectively consumed [17GW of power in 2022, with 56% of that power coming from fossil fuels](https://www.eesi.org/articles/view/data-center-energy-needs-are-upending-power-grids-and-threatening-the-climate). These new data center projects would increase the total energy usage of data centers in the US from ~4% currently to around ~12% of national energy consumption by 2030 (with a total power consumption estimate of ~130 GW). With AI token usage growing exponentially year over year and our tendency as humans to utilize whatever resources we have available to us (see [Javon's Paradox](https://en.wikipedia.org/wiki/Jevons_paradox)), AI training and inference loads will continue to get larger as usage grows and as we scale up to larger models with more parameters and higher costs.
 
-Energy demand will continue to grow at an exponential rate as a result. 
+Energy demand will continue to grow at an exponential rate as a result.
 
 To keep up with this level of energy generation demand, utilities are turning to firing up fossil fuel power plants in order to bring more energy online sooner. While clean energy (solar/wind/hydro/nuclear/etc) is continuing to scale exponentially at a [faster rate than traditional sources](https://www.theguardian.com/environment/2026/apr/21/clean-energy-generation-exceeded-rise-global-electricity-demand-2025) (oil/natural gas/fracking), it is not scaling fast enough or deployed at a ubiquitous enough scale to counteract the demand increase these AI data centers put on the grid (even if it comes at a [lower pricepoint per unit of energy generated](https://en.wikipedia.org/wiki/Cost_of_electricity_by_source)). This means that keeping up with the data center energy demand will [likely require an increase in utilization of less efficient fuel sources](https://www.energy.gov/oe/clean-energy-resources-meet-data-center-electricity-demand) (oil, natural gas, etc) in the short term to achieve the buildout on the desired timeline to win the AI race. By increasing our communal carbon footprint at a time where we need to be working our way off of fossil fuel dependence, data center projects help us achieve one goal (AI dominance) at the expense of another (Green Clean Energy Future and removing our dependence on fossil fuels). Prioritizing AI dominance over a clean energy future will deepen the environmental hole we are already in, creating a more difficult situation for future generations to climb out of. It's a decision with long tail impacts that casts a shadow on the next generation, and thus is one that should be made with intention and communal voice.
 
-As per usual with most climate impacts, while the costs of the increased energy demand will fall most directly on local people that live in the communities of the AI data center buildouts, it will indirectly affect us all over time. In order to cover the costs of bringing more energy online, utilities across the US are requesting [rate hikes](https://www.eesi.org/articles/view/data-center-power-demands-are-contributing-to-higher-energy-bills) to pass some of those costs onto the consumers in their jurisdiction. They are doing this while tech companies lobby their way to lower rates and [tax benefits](https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers) in an attempt to lower their cost and cut through beaurocratic review stages aimed to give the communities impacted a voice. While it's definitely true that speed matters in the AI race and that government beaurocracy can sideline many good ideas (see [CA high speed rail project](https://www.youtube.com/watch?v=9Hm0_-bOB4Y) history as a good example of this), these steps often do exist for a valid reason - to give communities a seat at the table and more power to have a say in their future. Without valuing that voice, we risk losing influence on decisions that will impact us for generations to come, arguably compromising our democratic values now in order to theoretically protect those same values in the future by winning the AI race. Big tech companies and the US government have strong incentives to win the AI race, and thus have been willing and able to push projects through local opposition. They have done this while also avoiding transparency, not giving the people that will be impacted the information or the voice they need to achieve the desired result in a more sustainable way. Inequality is nothing new in society, but without time for communities to comprehend the impact of the changes coming there is bound to be anger and frustration that comes to a head over time. 
+As per usual with most climate impacts, while the costs of the increased energy demand will fall most directly on local people that live in the communities of the AI data center buildouts, it will indirectly affect us all over time. In order to cover the costs of bringing more energy online, utilities across the US are requesting [rate hikes](https://www.eesi.org/articles/view/data-center-power-demands-are-contributing-to-higher-energy-bills) to pass some of those costs onto the consumers in their jurisdiction. They are doing this while tech companies lobby their way to lower rates and [tax benefits](https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers) in an attempt to lower their cost and cut through bureaucratic review stages aimed to give the communities impacted a voice. While it's definitely true that speed matters in the AI race and that government bureaucracy can sideline many good ideas (see [CA high speed rail project](https://www.youtube.com/watch?v=9Hm0_-bOB4Y) history as a good example of this), these steps often do exist for a valid reason - to give communities a seat at the table and more power to have a say in their future. Without valuing that voice, we risk losing influence on decisions that will impact us for generations to come, arguably compromising our democratic values now in order to theoretically protect those same values in the future by winning the AI race. Big tech companies and the US government have strong incentives to win the AI race, and thus have been willing and able to push projects through local opposition. They have done this while also avoiding transparency, not giving the people that will be impacted the information or the voice they need to achieve the desired result in a more sustainable way. Inequality is nothing new in society, but without time for communities to comprehend the impact of the changes coming there is bound to be anger and frustration that comes to a head over time.
 
-AI data center [water usage](https://www.youtube.com/watch?v=b0C56yqIkbk) follows a similar story. Cooling AI chips relies on local water stores which impacts the amount of fresh water leftover in ground supply for community usage, crop maintenance, sanitation, and fire relief. Traditional data centers use air cooling to cool chips (think about the fan in your personal computer that comes on when your system overheats), but due to the power demands of AI chips new AI data centers require clean drinking water to liquid cool the server racks. They require fresh water instead of wastewater or saltwater as fresh water evaporates cleanly and thus doesn't leave behind salt and mineral deposits that clog, corrode, and destroy expensive equipment. 
+AI data center [water usage](https://www.youtube.com/watch?v=b0C56yqIkbk) follows a similar story. Cooling AI chips rely on local water stores which impacts the amount of fresh water leftover in ground supply for community usage, crop maintenance, sanitation, and fire relief. Traditional data centers use air cooling to cool chips (think about the fan in your personal computer that comes on when your system overheats), but due to the power demands of AI chips new AI data centers require clean drinking water to liquid cool the server racks. They require fresh water instead of wastewater or saltwater as fresh water evaporates cleanly and thus doesn't leave behind salt and mineral deposits that clog, corrode, and destroy expensive equipment.
 
-Just like energy, scaling water usage inequally affects those that live in areas near data centers using that water while adding risks to the greater population via long-tail environmental impacts. Some of these communities where AI data centers are planned (like those in western TX where multiple of the Stargate Project sites are planned for) are already prone to droughts, fires, and rolling blackouts. Increasing water consumption in those areas will likely increase the risk of negative climate events tied to the increased risk of disruption of environment cycles playing out over time. 
+Just like energy, scaling water usage equally affects those that live in areas near data centers using that water while adding risks to the greater population via long-tail environmental impacts. Some of these communities where AI data centers are planned (like those in western TX where multiple of the Stargate Project sites are planned for) are already prone to droughts, fires, and rolling blackouts. Increasing water consumption in those areas will likely increase the risk of negative climate events tied to the increased risk of disruption of environment cycles playing out over time.
 
 *NOTE*:  Most of these risks are hard to quantify today as they are probabilistic in nature. We don't know exactly to what degree scaling energy and water usage impacts the environment, but there is clarity that it will have an impact. Because of the lack of specific cause-and-effect it can be hard for people to grasp the potential impacts of both sides and assess tradeoffs accurately between risks and rewards. In this type of information environment, it's common for the voices with the largest microphone (normally via influence, power, and money) to have their way. This is especially true in fast moving environments where there are fear-based incentives at play as well (like there are in the AI race via gold rush fomo and the fear of China gaining AI dominance). To cut through the noise and get a better grasp of asymmetric risks tied to AI (where slim probability events with large consequences become more frequent over a long enough time scale), I'd recommend reading [Nassim Taleb's books](https://www.goodreads.com/author/show/21559.Nassim_Nicholas_Taleb) on barbell risk curves, black swan events, and antifragility. Asymmetric risks play out on both sides of the tradeoff equation with AI (both in potential benefits and potential consequences), so understanding how to deal with uncertainty is vital to holistically viewing all sides of the issue.
 
 ### AI is Expensive 💰
 
-Outside of the data centers themselves, the financials behind AI companies and the AI economy at large are also showing some signs of cracks. 
+Outside of the data centers themselves, the financials behind AI companies and the AI economy at large are also showing some signs of cracks.
 
-Why? Because AI is freaking *EXPENSIVE*! It's expensive to build, expensive to run, and expensive to distribute en masse to the population. 
+Why? Because AI is freaking *EXPENSIVE*! It's expensive to build, expensive to run, and expensive to distribute en masse to the population.
 
-When AI companies build models, they have to go through a phase called *training* where, in laymans terms, engineers teach a computer to do a desired task by showing it many examples of the goal behavior and grading how closely the output matches the desired result. By manipulating neural net weights in each iteration (via [gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w)), engineers use a trial and error process over many iterations to eventually "grow" an AI model into something that can generally achieve the desired result. This process typically takes a long time and requires a vast amount of input data and compute resources to complete, and is thus expensive to do. The larger the model and the longer the training cycle, the more expensive it will be to complete (unless the price of running hardware goes down at a rate faster than the model compute demand grows). On top of training, AI models also run *inference* once deployed - a process where they run computations to service input queries from users. This is on par with how most non-AI based software is run, where input request size and complexity correlates to the amount of compute used to service the request. So more requests (via more ChatGPT queries) means more inference compute costs. Additionally more complex requests (like "research" or "chain-of-thought") on larger models also means more inference compute costs per query.
+When AI companies build models, they have to go through a phase called *training* where, in layman's terms, engineers teach a computer to do a desired task by showing it many examples of the goal behavior and grading how closely the output matches the desired result. By manipulating neural net weights in each iteration (via [gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w)), engineers use a trial and error process over many iterations to eventually "grow" an AI model into something that can generally achieve the desired result. This process typically takes a long time and requires a vast amount of input data and compute resources to complete, and is thus expensive to do. The larger the model and the longer the training cycle, the more expensive it will be to complete (unless the price of running hardware goes down at a rate faster than the model compute demand grows). On top of training, AI models also run *inference* once deployed - a process where they run computations to service input queries from users. This is on par with how most non-AI based software is run, where input request size and complexity correlates to the amount of compute used to service the request. So more requests (via more ChatGPT queries) means more inference compute costs. Additionally more complex requests (like "research" or "chain-of-thought") on larger models also means more inference compute costs per query.
 
-To train the latest frontier models (ex: GPT-4 / Gemini 1.5) costs somewhere in the ballpark of [hundreds of millions to billions of dollars](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models) per training cycle. GPT-4.5 alone accounts for around $340B in training compute spend, an amount that's enough money to cover [food stamps](https://usafacts.org/answers/how-much-does-the-federal-government-spend-on-snap-every-year/country/united-states/?YT_PLAYING=snHiT4f_wa4-_r_30_) for multiple years, a program that feeds around [~42 million people](https://www.ers.usda.gov/data-products/chart-gallery/chart-detail?chartId=55416) in the US (12.3% of the population, or 1 in 8 americans) every year and accounts for roughly ~1.4% of US federal government spending. And that's just one model from one company.
+To train the latest frontier models (ex: GPT-4 / Gemini 1.5) costs somewhere in the ballpark of [hundreds of millions to billions of dollars](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models) per training cycle. GPT-4.5 alone accounts for around $340B in training compute spend, an amount that's enough money to cover [food stamps](https://usafacts.org/answers/how-much-does-the-federal-government-spend-on-snap-every-year/country/united-states/?YT_PLAYING=snHiT4f_wa4-_r_30_) for multiple years, a program that feeds around [~42 million people](https://www.ers.usda.gov/data-products/chart-gallery/chart-detail?chartId=55416) in the US (12.3% of the population, or 1 in 8 Americans) every year and accounts for roughly ~1.4% of US federal government spending. And that's just one model from one company.
 
-To help you grasp the sheer scale of these training runs, every foundational AI model (Gemini, GPT, Claude, etc) individually uses around [10^26 floating-point operations (FLOPs)](https://epoch.ai/data/ai-models?view=graph&tab=large-scale) of compute per training cycle. That's 100 septillion operations run on AI chips to build a single model! That's a large enough number that it is roughly on par with the number of stars in the universe (if multiplied by 1 million) or 1.3 million Earth's worth of sand (if every FLOP equated to a single grain). Put another way, if every person on Earth today (8 billion people) did one math calculation every second, it would take the entire human race 400 million years to do the same number of calculations that AI chips do in just months on a single training cycle... 
+To help you grasp the sheer scale of these training runs, every foundational AI model (Gemini, GPT, Claude, etc) individually uses around [10^26 floating-point operations (FLOPs)](https://epoch.ai/data/ai-models?view=graph&tab=large-scale) of compute per training cycle. That's 100 septillion operations run on AI chips to build a single model! That's a large enough number that it is roughly on par with the number of stars in the universe (if multiplied by 1 million) or 1.3 million Earth's worth of sand (if every FLOP equated to a single grain). Put another way, if every person on Earth today (8 billion people) did one math calculation every second, it would take the entire human race 400 million years to do the same number of calculations that AI chips do in just months on a single training cycle...
 
 Insane.
 
-And this is all for a single instance of a single frontier model (of which we have many)! Compound this with the fact that AI compute seems to be doubling every 7 months, it's easy to see how the models will continue to grow in size and cost (both financial and environmental) until we [may not have enough compute on Earth](https://epoch.ai/blog/model-counts-compute-thresholds) to run them... which highlights why AI data centers are such a big deal. 
+And this is all for a single instance of a single frontier model (of which we have many)! Compound this with the fact that AI compute seems to be doubling every 7 months, it's easy to see how the models will continue to grow in size and cost (both financial and environmental) until we [may not have enough compute on Earth](https://epoch.ai/blog/model-counts-compute-thresholds) to run them... which highlights why AI data centers are such a big deal.
 
 ### Debits >>> Credits
 
 Ok. I get it. AI is expensive. Why does that matter?
 
-It matters because the AI spend is heavily outpacing AI profits on the other side of the balance sheet. To fill the gap currently the AI economy is relying heavily on debt and IOUs to keep the machines running. This in isolation isn't a major concern - lots of companies and governments at every level use debt to help fund projects today on the promise of benefits and profits tomorrow ([Amazon](https://letters.ehoneahobed.com/the-1-7-trillion-paradox-how-amazon-turned-20-years-of-losses-into-the-ultimate-victory-78a6ca26dc3d) and [Uber](https://doctorow.medium.com/no-ubers-still-not-profitable-2b8054e375ea) are both famous for leveraging debt to capture market share and "blitzscale to victory"). But this level of debt, at this scale, and at this speed is unprecedented in history. 
+It matters because the AI spend is heavily outpacing AI profits on the other side of the balance sheet. To fill the gap currently the AI economy is relying heavily on debt and IOUs to keep the machines running. This in isolation isn't a major concern - lots of companies and governments at every level use debt to help fund projects today on the promise of benefits and profits tomorrow ([Amazon](https://letters.ehoneahobed.com/the-1-7-trillion-paradox-how-amazon-turned-20-years-of-losses-into-the-ultimate-victory-78a6ca26dc3d) and [Uber](https://doctorow.medium.com/no-ubers-still-not-profitable-2b8054e375ea) are both famous for leveraging debt to capture market share and "blitzscale to victory"). But this level of debt, at this scale, and at this speed is unprecedented in history.
 
 For some context, OpenAI (largely considered one of the leaders in the space), currently loses tens of billions of dollars every year to train and run its AI models. To offset the costs it currently makes a majority of it's revenue through its B2B and B2C subscription business. Out of it's 900M users, only [5% are paying for the service](https://medium.com/write-a-catalyst/0-3-of-the-world-pays-for-ai-and-6-billion-dont-know-what-it-is-7e903900df71) and it recently turned on ads for non-paying users in an effort to boost revenue after Sam Altman [explicitly said they would not do so except as a last resort](https://www.reddit.com/r/artificial/comments/1qf9thi/i_kind_of_think_of_ads_as_like_a_last_resort_for/). This is all amidst other OpenAI scandals tied to [Sam Altman's tendency to lie](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted), [lawsuits regarding OpenAI's pivot to a for-profit entity](https://www.nytimes.com/2026/05/18/technology/elon-musk-openai-trial-takeaways.html), and OpenAI's loosening of red lines in its [deal with the Department of War](https://www.youtube.com/watch?v=gwuISEr7L8M). On top of that OpenAI is also on record saying that it will not only turn a profit by 2029 but one at ["Nvidia-level scale"](https://finance.yahoo.com/markets/stocks/articles/openai-reportedly-set-file-ipo-181332424.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAL8aDhhW8qKiDl4AIef-7AW_ZB1JO0D99G--bFvbHHq8yN3sLXnBRjkmngwVTnWGmQxgubWblL2JKODJU3zIASoNMstYax5PhDu1Z773RUijzBeqls0kJk4kWf75Oe7GEM_EVk6NJQOte-136tGXQoMTQssiymd6pki-OmW1dNkg) where it will provide tens of billions in revenue to shareholders every quarter.
 
 Sure... 🙄
 
-There is no way to know for sure if the narrative OpenAI is pitching will come true. It is a private company that doesn't need to disclose its financials to the public (at least not until it's IPO) and we do not have a crystal ball to predict the future. That being said, based on the reports above AI skeptics have a strong case here that OpenAI is unlikely to be able to pay off its debts and deliver on the promises its made.
+There is no way to know for sure if the narrative OpenAI is pitching will come true. It is a private company that doesn't need to disclose its financials to the public (at least not until its IPO) and we do not have a crystal ball to predict the future. That being said, based on the reports above AI skeptics have a strong case here that OpenAI is unlikely to be able to pay off its debts and deliver on the promises it has made.
 
-OpenAI is only one of many AI model companies (Google, Meta, Anthropic, etc...) and is the most egregious example of leaning on debt-based promises they are unlikely to keep, but the industry as a whole is universally selling AI at a loss today. If AI companies eventually experience a funding squeeze (which is possible given the recessionary environment we are in outside of AI data center buildout spend), it's plausable they'll eventually have to change their pricing structure in an attempt to pull in more revenue to offset growing costs. Just this past month, GitHub Copilot announced they are moving to a [usage based pricing plan](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) where instead of charging $10/month for unlimited queries they are now going to start charging users on an AI inference usage basis. This will likely cause prices for users of GitHub Copilot to go up and could potentially change the demand curve for the service if it's now provided at an effectively higher pricepoint. This is just one example of how increasing cost and market dynamics may push prices of AI services up over time. We don't know the exact cascading effects on demand that price hikes will have, but making services more expensive will likely alter usage patters and lower overall AI traffic per user (as users optimize when they use AI models and how complex their queries are). Given the fact that most AI financing is betting on continued AI growth, a lowering of demand via the rollout of less subsidized pricing models could counteract this narrative and underwhelm investors expectations.
+OpenAI is only one of many AI model companies (Google, Meta, Anthropic, etc...) and is the most egregious example of leaning on debt-based promises they are unlikely to keep, but the industry as a whole is universally selling AI at a loss today. If AI companies eventually experience a funding squeeze (which is possible given the recessionary environment we are in outside of AI data center buildout spend), it's plausible they'll eventually have to change their pricing structure in an attempt to pull in more revenue to offset growing costs. Just this past month, GitHub Copilot announced they are moving to a [usage based pricing plan](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) where instead of charging $10/month for unlimited queries they are now going to start charging users on an AI inference usage basis. This will likely cause prices for users of GitHub Copilot to go up and could potentially change the demand curve for the service if it's now provided at an effectively higher pricepoint. This is just one example of how increasing cost and market dynamics may push prices of AI services up over time. We don't know the exact cascading effects on demand that price hikes will have, but making services more expensive will likely alter usage patterns and lower overall AI traffic per user (as users optimize when they use AI models and how complex their queries are). Given the fact that most AI financing is betting on continued AI growth, a lowering of demand via the rollout of less subsidized pricing models could counteract this narrative and underwhelm investors' expectations.
 
 ### Circular AI Financing
 
@@ -192,512 +195,37 @@ Lastly, given the huge economic and power incentives at play, there have been so
 
 ### Job Market Displacement
 
-In addition to the financial cracks, AI is beginning to cause cracks in the labor market as well. 
+In addition to the financial cracks, AI is beginning to cause cracks in the labor market as well.
 
-In the past few months, AI-related job losses have been the [leading cause of job loss](https://www.cbsnews.com/news/ai-layoffs-job-cuts-challenger-report-april-2026/) in the US. Just this week [Meta cut 10% of it's workforce (8k jobs)](https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html) in an effort to keep up with the AI growth wave. Similar cuts have done across the tech industry in the past few months, with [Oracle also cutting 18% of it's workforce (30k jobs)](https://time.com/article/2026/04/30/oracle-layoffs-ai-tech-jobs/) in March and [Cloudflare cutting 20% of it's workforce (1.1k jobs)](https://fortune.com/2026/05/21/cloudflare-ceo-matthew-prince-layoffs-ai-automation-measurers/) in May. Most companies cite AI as the primary reason for the layoffs, either noting the need to put more resources into the AI investment bucket to keep up with the growing spend or citing the fact that AI is advancing to a point where it can now automate certain jobs away (thus letting companies maintain the same speed with less overhead - aka: less people). 
+In the past few months, AI-related job losses have been the [leading cause of job loss](https://www.cbsnews.com/news/ai-layoffs-job-cuts-challenger-report-april-2026/) in the US. Just this week [Meta cut 10% of it's workforce (8k jobs)](https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html) in an effort to keep up with the AI growth wave. Similar cuts have done across the tech industry in the past few months, with [Oracle also cutting 18% of it's workforce (30k jobs)](https://time.com/article/2026/04/30/oracle-layoffs-ai-tech-jobs/) in March and [Cloudflare cutting 20% of it's workforce (1.1k jobs)](https://fortune.com/2026/05/21/cloudflare-ceo-matthew-prince-layoffs-ai-automation-measurers/) in May. Most companies cite AI as the primary reason for the layoffs, either noting the need to put more resources into the AI investment bucket to keep up with the growing spend or citing the fact that AI is advancing to a point where it can now automate certain jobs away (thus letting companies maintain the same speed with less overhead - aka: less people).
 
-This statement is a bit of a catch-22, as it is contradictory on a few fronts. 
+This statement is a bit of a catch-22, as it is contradictory on a few fronts.
 
-First, while most CEOs are cutting their workforce they are also simultaneously selling the fact that AI will actually create *more* jobs over time than than it destroys (see Jensen Huang [arguing this point](https://www.youtube.com/watch?v=hzsK2wC2hNk) at the World Economic Forum this year). They argue that by boosting productivity, AI enables people to do more with less and thus enables them to invest more into new growth opportunities and new industries. Just like how the internet revolution displaced legacy jobs while creating new sectors of opportunity (internet services, cloud infrastructure, etc...), they argue that AI will have a similar effect on the economy, multiplying people's output and thus their economic opportunities. 
+First, while most CEOs are cutting their workforce they are also simultaneously selling the fact that AI will actually create *more* jobs over time than than it destroys (see Jensen Huang [arguing this point](https://www.youtube.com/watch?v=hzsK2wC2hNk) at the World Economic Forum this year). They argue that by boosting productivity, AI enables people to do more with less and thus enables them to invest more into new growth opportunities and new industries. Just like how the internet revolution displaced legacy jobs while creating new sectors of opportunity (internet services, cloud infrastructure, etc...), they argue that AI will have a similar effect on the economy, multiplying people's output and thus their economic opportunities.
 
-But actions here don't match the narrative they are pitching (most of the time). Instead of hiring more people to leverage AI to increase overall economic productivity, most tech companies are doing the opposite, laying people off and reducing their workforce size to do more with less. Humans employees are expensive and unpredictable. They make mistakes, require food, rest, and benefits to work at optimal productivity, and are not guaranteed to do what they are told. An AI on the other hand removes the complexity of the human element from the equation, allowing companies to run operations 24/7 while reducing overhead costs and boosting profits. When viewed through this lens, companies have strong incentives to remove the human element from their teams entirely, contradicting the narrative that AI growth automatically equates to more future employment opportunities for the general public.
+But actions here don't match the narrative they are pitching (most of the time). Instead of hiring more people to leverage AI to increase overall economic productivity, most tech companies are doing the opposite, laying people off and reducing their workforce size to do more with less. Human employees are expensive and unpredictable. They make mistakes, require food, rest, and benefits to work at optimal productivity, and are not guaranteed to do what they are told. An AI on the other hand removes the complexity of the human element from the equation, allowing companies to run operations 24/7 while reducing overhead costs and boosting profits. When viewed through this lens, companies have strong incentives to remove the human element from their teams entirely, contradicting the narrative that AI growth automatically equates to more future employment opportunities for the general public.
 
 Second, this statement is lacking nuance as it doesn't take into account the long term impact that this (allegedly) short term job displacement will have on the average person. This displacement is occuring at a time where jobs numbers across the US are declining (if you look at [revised numbers from the BLS](https://www.nytimes.com/2026/03/06/business/economy/economy-data-revisions.html), they normally release a top line number and revise it down a few months later) while the [cost of living](https://www.bls.gov/spotlight/2022/inflation-experiences-for-lower-and-higher-income-households/home.htm) for the average American is rising at rates faster than inflation and wages. People are leaning on [debt](https://www.experian.com/blogs/ask-experian/research/consumer-debt-study/) more than ever to make ends meet and are actively ["trading down"](https://www.forbes.com/sites/gregpetro/2026/05/19/the-great-trade-down-behind-the-consumer-spending-paradox/) on common items to try to survive. The loss of income of a [job displacement](https://www.goldmansachs.com/insights/articles/the-outlook-for-the-us-consumer-amid-rising-inflation) would break many of these households, forcing them onto government programs (like Snap and Medicaid) that are currently underfunded (partially due to our collective decision to fund the AI boom instead). Programs like [UBI (Universal Basic Income)](https://en.wikipedia.org/wiki/Universal_basic_income) and AI Literacy Training have been pitched to help, but political weight behind these programs is relatively low.
 
 Even if we collectively were to start rolling out these programs today it's unlikely to have a serious impact before the damage is done to the average American.
 
+
 ## My Lens
 
+Now that I've walked through both the AI optimist and AI pessimist perspectives (in as much detail as I could think of without claiming to have flushed out either side fully), I want to close out this blog post by giving my individual opinion on AI.
 
+In short, I'm short term *bearish* about the negative externalities AI brings, while being long term *bullish* about AI's potential to raise the floor of our world... but with a big asterisk and a strong dash of salt on both fronts.
 
+The short term pain created by AI is real and is already here. Jobs are being cut faster than new ones are being created. The cost of living is rising while wages stagnate and while automation renders previous livelihoods obsolete. People are struggling to make ends meet and are bearing the brunt of the negative externalities of decisions made by tech companies posting record profits while making promises (both financially and technologically) that they are unlikely to keep. Across the board, I believe the current incentive structure in the AI industry is misaligned and unsustainable (in a way that the invisible hand of the market alone can't fix). Tradeoffs need to be more explicit up front for communities that will be hit hardest by the AI transition. Offramps need to be prioritized to give more clarity to those looking to prepare for the disruption and the displacement. While speed is an important factor in the AI equation, I think seeing it as the most important factor is at the best naive and at the worst manipulative. Fear should not drive our action (or at least not be the primary driver) and AI should not be seen as a silver bullet that trumps all other concerns. AI should not get a free pass to circumvent collective action and voice in the name of winning the AI race. This "race to the bottom" framework hurts the average person and extracts more value from people than it gives back to society. It pits profits against people and increases existential risk at the exact time where we should be leveraging this technology to bring people together. We need to create new incentives in the AI game to get out of this incentive structure and reframe what success looks like collectively.
 
-Removing the human element in favor of an AI system that can perform tasks 24/7 while needing no workers rights, no bathroom breaks, and no healthcare. and toward any given directive
+All of these are very *real* concerns, and I fear that in the short term the deck is stacked against the average person. I don't see the incentive structure behind these trends changing anytime soon - at least not while companies and governments profit off the status quo and see AI as a tool for power instead of a tool for communal abundance. Financially there is too much on the line for them to slow down and too much fear of missing out steering their actions (or lack there of). Actions speak louder than words. Until the top AI voices actions match their narratives (in terms of regulation, corporate governance, AI safety, etc), I think there will likely be a lot people that get caught in the churn the AI wave leaves behind it. 
 
-Most AI CEOs argue that AI will actually create more jobs than it destroys through the multiplicative effect that AI will have on the greater economy (see Jensen Huang [arguing this point](https://www.youtube.com/watch?v=hzsK2wC2hNk) at the World Economic Forum this year). They generally see the job displacement situation as a short term problem that can be solved through programs like [Universal Basic Income](https://en.wikipedia.org/wiki/Universal_basic_income) or AI literacy training. Even if this is true, the impact of these short term problems is likely to be large. Jobs numbers across the US are declining (if you look at [revised numbers from the BLS](https://www.nytimes.com/2026/03/06/business/economy/economy-data-revisions.html), they normally release a top line number and revise it down a few months later) while the [cost of living](https://www.bls.gov/spotlight/2022/inflation-experiences-for-lower-and-higher-income-households/home.htm) for the average American is rising at rates faster than inflation and wages. Even if we can roll out programs to help, it is unlikely to happen before the damage is done to the average American worker.
+That being said, technological transitions are not new and history shows us that while it normally takes us some time to collectively learn the hard lesson, we usually do. Every era has its own flavor of existential risk it has to collectively face. The industrial revolution displaced entire generations of craftsmen before new industries absorbed them. The internet era obliterated print media, travel agencies, and a whole ecosystem of jobs that hadn't been given a real offramp. These transitions are never clean, they're rarely fair, and they always move faster than the safety nets designed to catch people in the crossfire. AI is a new type of problem in its specifics and its scale, but the pattern of societal disruption driven by technological change is not novel. We've navigated versions of this before and we can do it again.
 
-And that assumes that what these AI CEOs are pitching is actually true. While they say AI will create more jobs in the future, they are incentivized to 
+On top of that, I truly believe the long term future for this technology is bright. The productivity boost and ability to automate tasks is real (although likely overstated in the short term). The ability to make knowledge and expertise more ubiquitous and to leverage AI as a learning tool is real. The potential to discover new drugs, understand complex systems, reduce human suffering, and tackle problems that have historically been too large and too complex for individual humans to crack is real. If we can harness this technology thoughtfully while taking time to build better systems and safety nets around it, I truly believe the upside potential is enormous.
 
+The big "if" is whether or not we collectively choose to act on that potential or just let it happen to us via the systems and incentive structures that are already in place. AI isn't a force of nature. It doesn't scale without a series of human actions and decisions made by real people inside real companies and governments. These actors have incentives that push them in various directions - incentives that can be shaped and molded more thoughtfully with the communal future we all want in mind. The question isn't whether AI will transform the world - it will. The question is whether we're willing to be intentional enough about how we control this technological shift, so the transformation lifts people broadly instead of just reshuffling power toward those who already have it.
 
+I started this post saying the world is incredibly confusing right now. It still is. I don't think I've fully resolved that confusion myself - I'm not sure anyone can at the moment. But I do think the path forward is less about picking a side in the optimist vs. pessimist debate and more about staying clear-eyed enough to hold both truths at once: that this technology has genuine, transformative potential and that it comes with real costs that are landing on real people right now, today, in ways that deserve our full attention and care. We built this technology. We collectively control the incentives of this game and own the outcomes of its deployment and as such we have the power to choose our path here.
 
-
-
-
-
- these programs don't currently exist, are unlikely to be created in the near future, and take time to roll out the public. We collectively don't have time (or public buy-in) to 
-
-This comes at a time where jobs numbers as a whole across the US are declining (if you look at [revised numbers from the BLS](https://www.nytimes.com/2026/03/06/business/economy/economy-data-revisions.html), they normally release a top line number and revise it down a few months later), where the [cost of living](https://www.bls.gov/spotlight/2022/inflation-experiences-for-lower-and-higher-income-households/home.htm) is rising at rates faster than inflation and wages, and where [AI is continuing to improve on benchmarks](https://epoch.ai/benchmarks?view=graph&tab=eci) that test the skills required to do most peoples jobs.
-
-The current AI narrative is that these tools will enable people to build more, not less, and thus open up more opportunities for employment over time through growth (like how the internet opened the door for the digital services industry). Nvidia CEO, Jensen Huang, is on record [arguing this point](https://www.youtube.com/watch?v=hzsK2wC2hNk) adding that we are likely to face labor shortages due to the scale of the AI buildout and the need for more labor in the trades and in the AI data center and services layer. AI CEOs also argue the need for universal basic income (UBI) in the short term as a hedge against near term job loss.But that is counter to the other narrative AI CEOs like Elon Musk and 
-
-
-
-To fully understand the breadth of the AI job displacement impact, we first have to go back to basics to understand the economic system we're in today and what implicit agreements exist within that system to dictate how society works.
-
-Currently (in the US) we live in a capitalist society. Capitalism, by definition, is a balance between two parties: *labor* and *capital*. Labor (people working for a living) is incentivized to position itself in places where skill are valuable and marketable and to push for fair wages relative to their cost of living and other members of the workforce. Capital (people who own equity and employ labor) aim to maintaining value in the market by growing their profits and increasing their ownership stake while minimizing operating costs and overhead. 
-
-
-
-
-
-
-
-### How Capitalism Works
-
-Currently (in the US) we live in a capitalist society. Capitalism, by definition, is a balance between two parties: labor and capital. Those on the labor side (people working for a living) are inevitably trying to position themselves in places where their skills are valuable and marketable, and where they get paid "fairly" for their work relative to the cost of living (food, housing, transportation, etc.) and relative to other members of their field doing the same job. Those on the capital side (people who own companies, employ labor, or are shareholders in a venture) are constantly trying to maintain "value" in the market by growing their profits, increasing ownership equity and control of capital, and minimizing operating costs over time.
-
-This relationship between labor and capital hasn't always been clean, but the balance has been relatively clear and consistent. There are periods where capital uses its leverage to push for more productivity and efficiency from labor, and periods where labor has the upper hand to push for higher wages and better working conditions from capital. Fundamentally, capital needs labor to operate it's businesses and labor needs capital to afford basic goods and services. It's a symbiotic relationship, where both parties rely on each other to survive and succeed.  Since both are dependent on one another, there is naturally an incentive for both parties to find middle ground and normalize working conditions and wages to an agreed upon standard over time. It's not perfect, but systematically the push and pull between the competing parties is a relatively sound strategy to find a middle ground that works for most people.
-
-### A Fundamental Crack in the Capitalism Model
-
-With AI, this relationship between labor and capital begins to break down. AI has the potential to not only automate routine tasks, but to rearchitect the concept of human value in the labor-based knowledge economy altogether. 
-
-Historically, the main argument in favor of human value in the workforce has been our ability as humans to use a mix of learned experience and situational data to make decisions and complete complex tasks that are either too hard or too expensive for capital to automate (tasks like installing wiring harnesses in cars because it's too complex to automate or cleaning homes because it's faster, cheaper, and more efficient than having autonomous robots do so).
-
-To visualize this point, lets take a product manager as an example. A human product manager is very good at deciding what tasks should be prioritized in a sprint and which ones are less important to do right away given the holistic view of the product they are supporting and the long term goals of the product within the organization. To do this job well, a product manager needs *context* (what are the goals of the product? what are the goals of the organization? what is the impact of each task in this sprint if we complete it? etc...) and *knowledge* (proven real world learned examples of how outcome probabilities change based on what and how much is prioritized in a given sprint) to make a decision and take action. Using non-AI based tools, this skill is hard to automate, as it is context-dependent, non-deterministic, and doesn't fit cleanly into a repeatable algorithm. Every scenario is unique and there are human stakeholders involved, so having a human in the loop to manage the process is a net value add.
-
-With AI-based tools on the other hand, the potential for automating a product managers responsibilities increases substantially. Using AI, this decision of choosing what comes next in a sprint can be automated by prompting any foundation models with proper *context* (current state of the project via the codebase and jira) and access to a robust enough *knowledge* base (google docs, github, confluence, etc) to know the end goal. Being a product manager with the learned skill of prioritization is less valueable in an AI driven world than it was in the marketplace before AI was present. The PM's knowledge and skills still clearly hold some value (they could be useful in scenarios where there is less knowledge base established and less clarity around the end goals of the product), but AI creates a more fragile foothold for product managers (and knowledge economy jobs at large) to hold on to. As AI progresses the frequency of scenarios where humans outperform AI reduces due to the fact that AI can automate the decision making pipeline at a faster rate with more context and knowledge depth at a lower cost.
-
-### Labor Fragilility, a Race to the Bottom 🔻
-
-This asymmetry between human value and AI value is the primary risk for the knowledge sector economy in this new world. By automating complex decisions, AI either squeezes people out of the job they have built up a career on (via their knowledge and their ability to leverage that knowledge to make decisions) or forces them to compete in a hyper-competitive "race to the bottom" type efficiency game to hold onto their eroding position in the market by increasing their throughput through leveraging these new tools. 
-
-The first option forces labor to find a new employment opportunity to survive. The second option forces labor to outcompete to survive. 
-
-Let's break down each option.
-
-The first option, job displacement, is not a new phenomenon. We have plenty of historical examples where a new technological wave has displaced industries that used to exist and employ labor. During the industrial revolution, craftsmen (like blacksmiths, artisans, farmers, and elevator operators) were displaced by an increase in the manufacturing of tools and factories that could do these jobs better for cheaper. They therefore had to pivot to find a new way to make a living, often moving to cities and gaining work in the same factories that disrupted them in the first place. This shift can be difficult on a population that has built their identities and stability around being a craftsman, but is theoretically possible as long as there are job openings available on the other side of the displacement and opportunities for labor to up-skill from one opportunity to the next. Foundationally, this job displacement option is not new and will likely follow historical disruption trends, where over time people find work in new sectors that were not possible in the world before the disruption. It's a gnarly problem for society to face, but at least one with historical precedent to learn from to soften the blow.
-
-The second option, hyper-competitive labor markets, is also not a new phenomenon in general but has a new twist this time around. This concept of competitive environments is fundamental to the theory of capitalism. If competition didn't exist, people would create wealth silos that inhibit upward mobility and cause a society to stall in it's growth. Disruption is needed to align incentives with growth and uphold the ideal of merit allowing for societal mobility. This concept by itself, of a natural forcing function creating incentives for people to level up and improve their output to better the greater economy and add move value, I have no theoretical issue with (there are plenty of issues in reality - inequality, it not actually being a meritocracy in many cases, rigged incentives, etc... but at least in theory I can buy the premise of why it's needed to keep the whole system going). 
-
-That being said, in this case, I think the competition (on the labor market side) itself is unfair to a degree where over time it may be an unwinnable game. For the first time in history, we (humans) are competing with automation (AI) on knowledge itself. In the past, all competitive disruptions were primarily humans using tools to compete against other humans using tools. There were limits implicit in the fact that humans 
-
-
-as for the first time in history the concept of automating away knowledge itself is possible. By displacing the human element entirely and enabling the automation of non-deterministic knowledge tasks, AI changes the stakes of the game to create effectively a race to the bottom, or at the very least a more fragile labor contract.
-
-But wait... (you may ask) this second option sounds good on paper... what's wrong with forcing people to outcompete each other to survive? Isn't that what capitalism is built on? I thought it thrived on competition as it forces people to level-up their skills to stay relavent. 
-
-Yes, you're right. Competition is generally good assuming there is a fair playing field. Humans bring the best out of each other when they compete (against each other). In the past, previous technilogical transformations have replaced rote tasks but have never threatened to replace knowledge itself. 
-
-
- But the AI race is not a fair fight. Competition within the labor market is not new. There have been generations of employees that have had to level up their skills to hold onto their positions within the marketplace as new technologies and new ideas/processes come into the picture. But in all past instances (at least in the knowledge sector), there has never been competition with a super-human entity. All tools in the past have automated certain tasks but have never automated or commoditized knowledge itself.
-
-
-When on a fair playing field can be a great way to produce economic value (think Microsoft vs. Apple, Amazon vs. Walmart, etc), but competition between knowledge work and generalized AI intelligence is new. It's not a fair fight. 
-
-may work but is a fragile position to be in as it's a moving goalpost with no theoretical end in sight. Competition within the labor market is not new, but the ability to offload labor altogether is. That game is one where top performers can compete for a while, but even they eventually will become obsolete due to the fact that they can't outrun the AI wave at the current pricepoint.Either way labor loses leverage and on average is worse off than it was before in the pre AI era.
-
-Commoditizing human knowledge and skills into automatable processes and agentic workflows changes the human labor value proposition in the economy, and thus changes the incentives of the capitalist games we all play. Most people in our economic system are labor, not capital. Automating their skills away will begin to break the social contract most people rely on for both meaning and survival.
-
-
-Across the board, the value proposition in the knowledge work sector is changing due to AI with implications beyond just the individual. Running with this assumption that knowledge itself can be commoditized via decisions and actions being offloaded from humans, the whole capitalist system our society is built on begins to crack (or at the very least shift). In a world where capital theoritically no longer needs labor to survive, business owners have less incentive to invest in people over agentic AI systems that never sleep, rarely make mistakes (when prompted with proper context and aligned properly in training), and cost a fraction of what a human would cost to employ. The relationship between capital and labor is no longer symbiotic in the knowledge economy to the degree it used to be. Capital can now operate without needing to rely as heavily on labor. From a labor perspective, this changes the value proposition, as the in demand skills are shifting into more technical roles with more competition for less seats than before. The labor "game" in the knowledge sector is now a race to the bottom, in which people compete with each other on either efficiency or technical depth to provide more value than an equivalent AI system can provide. This is not necessarily a good or bad thing (depends on where one sits on the capital / labor spectrum), but it is a shift that is changing where opportunities exist in our society. 
-
-
-### Labor Employment Scarcity
-
-This asymmetry between human value and AI value is the primary risk for the knowledge sector in this new world. By automating complex decisions, AI either squeezes people out of the job they have built up a career on (via their knowledge and their ability to leverage that knowledge to make decisions) or forces them to compete in a hyper-competitive "race to the bottom" type efficiency game to hold onto their eroding position in the market. The first option forces labor to find a new employment opportunity to survive. The second option forces labor to compete against one another for limited spots in a scarce, yet lucrative game. Either way labor loses leverage and on average is worse off than it was before in the pre AI era.
-
-To extend on this point, on a large scale I expect AI to  
-
-Across the board, the value proposition in the knowledge work sector is changing due to AI with implications beyond just the individual. Running with this assumption that knowledge itself can be commoditized via decisions and actions being offloaded from humans, the whole capitalist system our society is built on begins to crack (or at the very least shift). In a world where capital theoritically no longer needs labor to survive, business owners have less incentive to invest in people over agentic AI systems that never sleep, rarely make mistakes (when prompted with proper context and aligned properly in training), and cost a fraction of what a human would cost to employ. The relationship between capital and labor is no longer symbiotic in the knowledge economy to the degree it used to be. Capital can now operate without needing to rely as heavily on labor. From a labor perspective, this changes the value proposition, as the in demand skills are shifting into more technical roles with more competition for less seats than before. The labor "game" in the knowledge sector is now a race to the bottom, in which people compete with each other on either efficiency or technical depth to provide more value than an equivalent AI system can provide. This is not necessarily a good or bad thing (depends on where one sits on the capital / labor spectrum), but it is a shift that is changing where opportunities exist in our society. 
-
-Ok... so labor is losing leverage as capital can pay for AI systems over humans to make decisions and take complex actions. Won't that just force people on the labor side to move to a new industry? Why is this any different than past technical revolutions like the dotcom era or the industrial revolution?
-
-It's different because the amount of labor needed is substantially less
-
-
-
-
-
-
-
-Examples of expectations not matching reality in AI include:
-1. The Data Center build out (everything is delayed or cancelled, costs of building are going up due to inflation and tariffs on overseas goods, funding is in question as entities like OpenAI don't have the money they promised to provide for the build out)
-2. Circular AI financing / funny money (almost all AI initiatives - from frontier labs to companies trying to utilize AI lose money, if you follow the funding map you often get a circle where frontier AI labs have promised growth and revenue that is not currently there, big tech companies are inaccurately weighing legacy chip depreciation costs and softly "lying" about losses to make it look better to investors)
-3. Timelines are consistently wrong with AI (Tesla self driving promises are always late, Apple "Artificial Intelligence" had a huge delay from launch to release date - overpromising features that didn't exist). Eventually faith will run out and companies will have to deliver or die.
-4. Legacy AI chip depreciation (big tech companies spending $$$ on AI chips that become obsolete in a few months/years are writing off these depreciation losses innaccurately on their books making it look better than it is)
-5. Frontier models scaling laws may plateau (see my note section in the "AI Optimist" section). AGI is a theory, not a reality. Skeptics assume model performance may plateau or degrade eventually throwing into question the promise of the growth we are all communally investing in.
-
-
-Societal Impacts & Risks (assuming AI optimists are right about the promise of the technology):
-1. 
-
-
-
-Societal Impacts & Risks (assuming AI optimists are wrong about the promise of the technology):
-
-
-
-
-Time and again we show our collective ability to ride the wave in promise of riches and a better tomorrow, and often times buying in is much easier to do than digging to find out if the ground truth matches the narratives being pitched. 
-
-
- When incentives are in place for people to lie or overinflate predictions, they tend to do so (at least when scaled to a large population of people). The same is true in reverse with investors and consumers. If the incentive is there to ride the wave to make money, people are going to ride it. And the AI wave is no different.
-
-
-
-
- we as humans tend to fall into the same hype cycles ("bubbles") 
-
-
-
- for people to live more independently and coexist in ways that are more aligned with their unique selves. 
-
-In a world of abundance we potentially no longer need to work for a living. We don't need to fight wars over limited resources. We can refocus our limited time and efforts on 
-
-a world where money is no longer needed as an intermediary to obtain the goods and services that improve our quality of life. 
-
-Traditionally, humans are the most expensive part of a workforce. To get the goods and services we depend on every day, we have to rely on humans to build products, drive trucks, and 
-
-
-
-
-
-
-
-
-
-They believe All of this potential is buoyed by the promise of silican intelligence that can theoretically scale as far as we push it to solve harder and harder problems with more data across higher order dimentional planes.
-
-
-
-
-
-
-, to self-driving models from Tesla and Waymo outperforming a majority of human drivers on the roads in safety metrics, it's no longer in question if AI is a useful tool. The concept of training neural nets has proven itself as an incredibly powerful method to build software to handle fuzzy non-deterministic problem spaces.
-
-
-
-
- The question now is to what degree and how soon will it get good enough to solve more real world problems.
-
-
- is the concept of training neural nets to "learn" how to intuitively complete tasks has been proven to be a powerful way to solve real world non-deterministic problems.
-
-In controlled environments there are countless examples of problems where neural nets outperform traditional deterministic algorithms and humans alike. The most famous example of this was with chess, where DeepBlue defeated Gary Kasparov in 1998  
-
-
-to make decisions in the chase of potential rewards  to achieve desired outcomes without needing  algorithmic understanding of the approach unlocks a host of problems that were previously really hard to solve with deterministic logic alone.
-
- as for the first time in history synthetic machines have the ability to synthesize information and reason to make decisions and solve non-deterministic problems. This capability has already shown itself in many disciplines (from bots like DeepBlue beating Kasparov)
-
-
-It enables us to build solutions without needing to first understand the underlying mat It fits more cleanly into our lives with natural language processing baked into the interface. It is grounded in reality in many ways.
-
-
-AI because both these perspectives, the unbridled optimist and the skeptic, are grounded in truth that can be backed up and 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Big Picture
-
-## How Capitalism Works?
-
-I think to truly understand AI, we first have to understand the economy and the implicit agreements that dictate how society works in today's day and age. 
-
-Currently (in the US) we live in a capitalist society. Capitalism, by definition, is a balance between two parties: labor and capital. Those on the labor side (people working for a living) are inevitably trying to position themselves in places where their skills are valuable and marketable, and where they get paid "fairly" for their work relative to the cost of living (food, housing, transportation, etc.) and relative to other members of their field doing the same job. Those on the capital side (people who own companies, employ labor, or are shareholders in a venture) are constantly trying to maintain "value" in the market by growing their profits, maintaining control, and minimizing operating costs over time.
-
-This relationship between labor and capital hasn't always been clean, but the balance has been relatively clear and consistent. There are periods where capital uses its leverage to push for more productivity and efficiency from labor, and periods where labor has the upper hand to push for higher wages and better working conditions from capital. Fundamentally, capital needs labor to operate it's businesses and labor needs capital to afford basic goods and services. It's a symbiotic relationship, where both parties rely on each other to survive and succeed.  Since both are dependent on on another, there is naturally an incentive for both parties to find middle ground and normalize working conditions and wages to an agreed upon standard over time. It's not perfect, but systematically the push and pull between the competing parties is a relatively sound strategy to find a middle ground that works for most people.
-
-## A Fundamental Crack in the Capitalism Model
-
-With AI, this relationship between labor and capital begins to break down. AI has the potential to not only automate routine tasks, but to rearchitect the concept of human value in the labor-based knowledge economy altogether. 
-
-Historically, the main argument in favor of human value in the workforce has been our ability as humans to use a mix of learned experience and situational data to make decisions and complete complex tasks that are either too hard or too expensive for capital to automate (tasks like installing wiring harnesses in cars because it's too complex to automate or cleaning homes because it's faster, cheaper, and more efficient than having autonomous robots do so).
-
-To visualize this point, lets take a product manager as an example. A human product manager is very good at deciding what tasks should be prioritized in a sprint and which ones are less important to do right away given the holistic view of the product they are supporting and the long term goals of the product within the organization. To do this job well, a product manager needs *context* (what are the goals of the product? what are the goals of the organization? what is the impact of each task in this sprint if we complete it? etc...) and *knowledge* (proven real world learned examples of how outcome probabilities change based on what and how much is prioritized in a given sprint) to make a decision and take action. Using non-AI based tools, this skill is hard to automate, as it is context-dependent, non-deterministic, and doesn't fit cleanly into a repeatable algorithm. Every scenario is unique and there are human stakeholders involved, so having a human in the loop to manage the process is a net value add.
-
-With AI-based tools on the other hand, the potential for automating a product managers responsibilities increases substantially. Using AI, this decision of choosing what comes next in a sprint can be automated by prompting any foundation models with proper *context* (current state of the project via the codebase and jira) and access to a robust enough *knowledge* base (google docs, github, confluence, etc) to know the end goal. Being a product manager with the skill to prioritize well is less valueable in an AI driven world than it was before AI was present. The knowledge and skill still clearly hold some value (they could be useful in scenarios where there is less knowledge base established and less clarity around the end goals of the product), but AI creates a more fragile foothold for product managers to hold on to and reduces the frequency of scenarios where humans outperform AI due to the fact that AI can automate the decision making pipeline at a faster rate with more context and knowledge depth at a lower cost.
-
-## Fragilility & a Race to the Bottom 🔻
-
-This asymmetry between human value and AI value is the primary risk for the knowledge sector in this new world. By automating complex decisions, AI either squeezes people out of the job they have built up a career on (via their knowledge and their ability to leverage that knowledge to make decisions) or forces them to compete in a hyper-competitive "race to the bottom" type efficiency game to hold onto their eroding position in the market by increasing their throughput through leveraging these new tools. 
-
-The first option forces labor to find a new employment opportunity to survive. The second option forces labor to outcompete to survive. 
-
-Let's break down each option.
-
-The first option, job displacement, is not a new phenomenon. We have plenty of historical examples where a new technological wave has displaced industries that used to exist and employ labor. During the industrial revolution, craftsmen (like blacksmiths, artisans, farmers, and elevator operators) were displaced by an increase in the manufacturing of tools and factories that could do these jobs better for cheaper. They therefore had to pivot to find a new way to make a living, often moving to cities and gaining work in the same factories that disrupted them in the first place. This shift can be difficult on a population that has built their identities and stability around being a craftsman, but is theoretically possible as long as there are job openings available on the other side of the displacement and opportunities for labor to up-skill from one opportunity to the next. Foundationally, this job displacement option is not new and will likely follow historical disruption trends, where over time people find work in new sectors that were not possible in the world before the disruption. Still a gnarly problem to face, but at least it's a new shade of problems we've collectively faced before as a society.
-
-The second option, hyper-competitive labor markets, is also not a new phenomenon in general but has a new twist this time around. This concept of competitive environments is fundamental to the theory of capitalism. If competition didn't exist, people would create wealth silos that inhibit upward mobility and cause a society to stall in it's growth. Disruption is needed to align incentives with growth and uphold the ideal of merit allowing for societal mobility. This concept by itself, of a natural forcing function creating incentives for people to level up and improve their output to better the greater economy and add move value, I have no theoretical issue with (there are plenty of issues in reality - inequality, it not actually being a meritocracy in many cases, rigged incentives, etc... but at least in theory I can buy the premise of why it's needed to keep the whole system going). 
-
-That being said, in this case, I think the competition (on the labor market side) itself is unfair to a degree where over time it may be an unwinnable game. For the first time in history, we (humans) are competing with automation (AI) on knowledge itself. In the past, all competitive disruptions were primarily humans using tools to compete against other humans using tools. There were limits implicit in the fact that humans 
-
-
-as for the first time in history the concept of automating away knowledge itself is possible. By displacing the human element entirely and enabling the automation of non-deterministic knowledge tasks, AI changes the stakes of the game to create effectively a race to the bottom, or at the very least a more fragile labor contract.
-
-But wait... (you may ask) this second option sounds good on paper... what's wrong with forcing people to outcompete each other to survive? Isn't that what capitalism is built on? I thought it thrived on competition as it forces people to level-up their skills to stay relavent. 
-
-Yes, you're right. Competition is generally good assuming there is a fair playing field. Humans bring the best out of each other when they compete (against each other). In the past, previous technilogical transformations have replaced rote tasks but have never threatened to replace knowledge itself. 
-
-
- But the AI race is not a fair fight. Competition within the labor market is not new. There have been generations of employees that have had to level up their skills to hold onto their positions within the marketplace as new technologies and new ideas/processes come into the picture. But in all past instances (at least in the knowledge sector), there has never been competition with a super-human entity. All tools in the past have automated certain tasks but have never automated or commoditized knowledge itself.
-
-
-When on a fair playing field can be a great way to produce economic value (think Microsoft vs. Apple, Amazon vs. Walmart, etc), but competition between knowledge work and generalized AI intelligence is new. It's not a fair fight. 
-
-may work but is a fragile position to be in as it's a moving goalpost with no theoretical end in sight. Competition within the labor market is not new, but the ability to offload labor altogether is. That game is one where top performers can compete for a while, but even they eventually will become obsolete due to the fact that they can't outrun the AI wave at the current pricepoint.Either way labor loses leverage and on average is worse off than it was before in the pre AI era.
-
-Commoditizing human knowledge and skills into automatable processes and agentic workflows changes the human labor value proposition in the economy, and thus changes the incentives of the capitalist games we all play. Most people in our economic system are labor, not capital. Automating their skills away will begin to break the social contract most people rely on for both meaning and survival.
-
-
-Across the board, the value proposition in the knowledge work sector is changing due to AI with implications beyond just the individual. Running with this assumption that knowledge itself can be commoditized via decisions and actions being offloaded from humans, the whole capitalist system our society is built on begins to crack (or at the very least shift). In a world where capital theoritically no longer needs labor to survive, business owners have less incentive to invest in people over agentic AI systems that never sleep, rarely make mistakes (when prompted with proper context and aligned properly in training), and cost a fraction of what a human would cost to employ. The relationship between capital and labor is no longer symbiotic in the knowledge economy to the degree it used to be. Capital can now operate without needing to rely as heavily on labor. From a labor perspective, this changes the value proposition, as the in demand skills are shifting into more technical roles with more competition for less seats than before. The labor "game" in the knowledge sector is now a race to the bottom, in which people compete with each other on either efficiency or technical depth to provide more value than an equivalent AI system can provide. This is not necessarily a good or bad thing (depends on where one sits on the capital / labor spectrum), but it is a shift that is changing where opportunities exist in our society. 
-
-
-## Labor Employment Scarcity
-
-This asymmetry between human value and AI value is the primary risk for the knowledge sector in this new world. By automating complex decisions, AI either squeezes people out of the job they have built up a career on (via their knowledge and their ability to leverage that knowledge to make decisions) or forces them to compete in a hyper-competitive "race to the bottom" type efficiency game to hold onto their eroding position in the market. The first option forces labor to find a new employment opportunity to survive. The second option forces labor to compete against one another for limited spots in a scarce, yet lucrative game. Either way labor loses leverage and on average is worse off than it was before in the pre AI era.
-
-To extend on this point, on a large scale I expect AI to  
-
-Across the board, the value proposition in the knowledge work sector is changing due to AI with implications beyond just the individual. Running with this assumption that knowledge itself can be commoditized via decisions and actions being offloaded from humans, the whole capitalist system our society is built on begins to crack (or at the very least shift). In a world where capital theoritically no longer needs labor to survive, business owners have less incentive to invest in people over agentic AI systems that never sleep, rarely make mistakes (when prompted with proper context and aligned properly in training), and cost a fraction of what a human would cost to employ. The relationship between capital and labor is no longer symbiotic in the knowledge economy to the degree it used to be. Capital can now operate without needing to rely as heavily on labor. From a labor perspective, this changes the value proposition, as the in demand skills are shifting into more technical roles with more competition for less seats than before. The labor "game" in the knowledge sector is now a race to the bottom, in which people compete with each other on either efficiency or technical depth to provide more value than an equivalent AI system can provide. This is not necessarily a good or bad thing (depends on where one sits on the capital / labor spectrum), but it is a shift that is changing where opportunities exist in our society. 
-
-Ok... so labor is losing leverage as capital can pay for AI systems over humans to make decisions and take complex actions. Won't that just force people on the labor side to move to a new industry? Why is this any different than past technical revolutions like the dotcom era or the industrial revolution?
-
-It's different because the amount of labor needed is substantially less
-
-
-## Outline
-
-*Thesis*: The efficiency and productivity potential of AI are legitimate. It's a technology that over time will transform our society and automate many of the tasks and workflows in our daily lives. Generally speaking, that's no longer a question, it's a reality. We see this playing out in the news every day. From self-driving cars (Waymo, Tesla, Zoox, etc) traversing our streets more than ever before to new Anthropic releases causing stocks to tank due to fears that software will become ubiquitous, the impact of the AI wave is everywhere. Collectively there is a fear that AI will take jobs and make humans obsolete in many fields. We don't know exactly when this will happen, what it will look like, or how deeply AI will sink into our lives but there is no doubt that the wave is here to stay and that AI will continue to permeate our world and continue to improve in it's capabilities beyond what it can do today. 
-
-Given that reality, I think the important question for everyone to answer in the current moment is how we should think about AI and where we should intentionally invest our time and focus to improve our odds of better individual and collective outcomes. While there are many upsides to this new technology (increased efficiency, improved automation for complex dangerous tasks, democratization of knowledge, etc) it comes with it's fair share of tradeoffs as well (fragmenting our attention and focus, centralizing our knowledge with training-based biases, loss of privacy and security in our personal and professional lives, etc.), so being thoughfut about how to cut through the noise to understand AI (without the hype) is an essential skill to harness the upsides of this revolutionary technology while protecting against the downside risk of it.
-
-Individually, I believe most of the tradeoffs of this technology in the current moment are not worth the hype (at least not in the way they are currently being sold to us on LinkedIn). I'm confident in the abilities of these new AI systems for specific use cases (helping radiologists spot cancer, simulation analysis over complex data sets, etc). They consistently improve in marks on common benchmarks (<insert benchmarks>) and become more capable with every release. But, I don't think this progress is linear (I expect it to be more logarithmic) and I think the tradeoffs of these tools are more nuanced than what is being presented to us. More specifically, I think fact that these AI tools fragmenting of our attention and focus, the loss of control over our data, and the offloading of our critical thought and ideas to enterprises that train on our prompts collectively introduces a larger risk than reward to the average individual. As such, I'd recommend focusing on maintaing full control over your attention, retaining your critical thought advantange, and investing in finding a game where success is not driven by a race to the bottom are going to be the differentiators between the winners and losers of this new world. 
-
-*caveat*: There will be outliers (as there are now) that operate well in the fast-paced, split-attention world - but overall this setup will make us collectively more anxious, depressed, and unhappy even if on paper our lives improve. Don't take the bait. Carve your own lane.
-
-1. AI and supply/demand curves --> a world of abundance
-    - We could use AI to optimize our ability to produce goods en mass, thus reducing the price of those goods down to zero effectively over time.
-    - Money is only valuable as an intermediary for goods and services and as a status symbol for power and access. In a world of abundance, it will lose it's value as a status symbol. 
-        - Only true if we use this technology to drive a world of abundance, especially for basic goods and services like food, housing, transportation, etc. (this is a choice we make in our policies).
-    - My prediction is that health and wisdom will become the new status symbols, over money and power. It will signal that you have used the world of abundance to your advantange to improve yourself physically and mentally.
-        - The looksmaxxing wave is a watered-down shortcut to health as a status symbol.
-    - Peace of mind is the world's most valuable currency.
-
-2. AI increases complexity in exchange for promises in increased "efficiency" and "productivity". For most people and most things that tradeoff is not worth it (at least in how it's currently being sold to us).
-    - This tradeoff makes sense in specific use cases but not for the average person or for all problems.
-    - Not everything is a task-driven efficiency game. It's a simplistic, rote way to view the world. Creativitivy doesn't boil down to efficiency most of the time.
-    - The noise of the additional complexity is going to make it more difficult for people to focus on adding value
-
-3. AI fractures attention. Fractured attention makes it harder to think clearly and do deep work, which makes it harder to holistically improvie your life.
-    - The multi-agent parallel work trend is aimed at hyper-efficiency without acknowledging the tradeoff of what we're losing in attention and deep work
-    - The cost of losing deep work and focus is higher than the benefit of AI productivity (unless you are in a select group)
-    - The hyper-efficiency game is a race to the bottom in the current moment and thus a bad place to be
-
-4. AI consolidates knowledge, but it also consolidates diversity of thought and creativity. 
-    - LLMs serve up content based on what they are trained on. They will bias towards the data they are fed on. 
-    - Many times, data != reality. Bad data in, bad advice/output out.
-    - Long term fear: Collective reality may converge to the LLM output rather than the other way around.
-
-5. AI is killing the task-driven knowledge economy most people are a part of. The shift will be dramatic and quick for most.
-    - Knowledge work breaks down into a few buckets:
-        - Efficient Task completion
-        - Ideation
-        - Executation Ability
-    - Most people are not going to be in the upper % of any group, thus their value will degrade and be replace by cheaper AI systems (especially as the price of tokens goes down).
-    - Finding a game where success is not dictated purely by throughput and instead values longer term deep thinking is the place to be. It's more difficult but it's safer given AI will automate most basic things.
-
-6. AI is a financial and thought bubble, even if it delivers. 
-    - The narrative and money behind AI are somewhat of a collective illusion. 
-    - The incentives tied to the narrative are strong as many people are financially linked.
-    - Expectations and rhetoric are driven by "vibes", which are fragile and change over time. 
-
-7. People misunderstand the nuance of the human element in an AI driven world
-    - Individual human element
-        - Loss of purpose and meaning in work. Removal of this identity pillar will have a cascade effect.
-        - More anxiety, depression, and addiction as a result. More split attention. More short term focus. More room for people to fall for scams.
-        - More focus on the individual and less on the collective. Continuation of the social media and smart phone era trends.
-    - Collective human element
-        - Individual problems drive people to look for collective boogeymen to blame for their problems. As such, I think there will be more tension and blaming (especially given the online algorithmic driven platforms we have discourse in).
-        - Loss of meaning drives illogical collective action when people feel left behind. They are more willing to take a scorched earth strategy, even if that strategy hurts them as well. There is less incentive to work together and more incentive to cut each other down, with the focus being to asymmetrically hurt the other party instead of building each other up.
-        - At scale human nature wins. We will find the easiest path, so if presented with an easy way to offload our thinking and our attention we will do it in the short term even if it hurts our long term goals. (think TikTok in the current age)
-        - What is the end goal? Even if AI makes our lives "better" on paper, I think it will make us less "happy". Collectively we don't have a north star that we are shooting for for what "success" looks like long term with AI.
-
-
-
-
-
-### AI Impacts on a per-individual scale
-
-##
-
-
-### AI Impacts on a per-society scale
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-If these two entities diverge, there are a few different potential paths 
-
-// TODO: Talk about the diverging options between winner take most games and raising the communal floor to create a world of abundance
-
-To extend on this point, what is the point of having money in a world where labor and capital diverge from one another. This break would cause a fraction of the population (those on the capital side of the equation) to have a large majority of the money over those stuck on the labor side of the house. But if money's main goal is to be an asset that can be traded for goods and services, why collect it
-
-
-Instead of capital investing in labor, there is more incentive than ever for owners of companies to offload decisions and actions to agentic AI systems that never sleep, make less mistakes (if prompted with proper context and aligned properly in training), and run for a fraction of the cost as humans. The tradeoff of human "value" in the capitalist system is fundamentally different from what we have in place today, and what millions of people build lives on top of to survive.
-
-
- This comes with it's own risks, but the concept that human decision making can be automated out of complex, non-deterministic process flows is enough incentive to change the dynamic between labor and capital. Capital no longer relies on labor (in the knowledge sector) like it used to. Labor can theoretically be automated out to the point where the owner of a corporation can run the organization without needing to delegate responsibility to inconsistent human actors.
-
- The ability to rely on entities you can exercise more control over (AI agents) that never sleep, never have emotional bias, and operate for a fraction of the cost push companies to attempt to automate knowledge workers out of a job to reduce the complexity of their workflows.
-
-
-
- where there is an implicit tradeoff between labor (people working jobs to provide "value") and capital (people paying for others to provide a service or skill).
-
-
-- Capitalist Identities
-    - A world built on trust, cooperation, growth and economy
-    - Historical tradeoff between labor and capital. In theory, everyone can "win"
-    - Identity and the "American Dream", meritocracy + growth = opportunity
-    - Shared belief that tomorrow will be better than today fuels the willingness to participate
-
-
-- The Implicit Promise
-    - Education/College = job security and utility
-    - Money = flexibility and safety
-    - Efficiency = value in the marketplace
-    - Debt is worth it for growth that is perceived as "safe" (student loans, housing, cars, keeping up with the Jones's)
-
-
-# A Breaking of the Social Contract
-
-- The New Reality (narrative)
-    - AI threatens job security of most white coller careers that were percieved as "safe"
-        - What's the value of knowledge once it's "commoditized" in a way that can agentically act?
-    - AI gives companies leverage to push employees to 9-9-6 while they automate many of them away
-    - AI lowers the barrier of knowledge work by providing people with access to offload knowledge to a system instead of an individual
-        - Risk of knowledge loss or loss of critical thinking skills due to an "easy" route existing now
-        - More quantity, less quality of output
-        - More "knowledge", less "understanding"
-    - The debt tradeoff makes less sense due to the velocity of change in our current world. 
-    - K shaped economy --> there is still hyper-growth but it's hyper-competitive and a smaller share of the overall pie relative to what it used to be.
-
-- A Shifting of Identity and Value
-    - With less security, people are less likely to invest in their future and more likely to try to make a quick buck
-        - Rise of prediction markets, rise of sports gambling, rise of financial nihilism, rise of nostalgia-driven culture (per Atrioc, and Kyla Scanlon)
-    - With a less clear path to improvement via capitalism, there is less personal identity in work
-
-- Faster, larger, and more frequent shifts than in the past
-    - Shifts are not new but the frequency of them is increasing, along with the size of them.
-    - Regulation, public perception/opinion, finances can't keep up.
-    - No incentive for companies to slow down, not a strong enough incentive for politicians to legislate (or even if there is it's too slow and too small of penalties to change behavior), no enough cohesive knowledge on the rapidly changing landscape to be forward-looking.
-    - Perception is reality --> if we perceive this is an existential thread we will run as if it is... and thus we are choosing to speed up the treadmill instead of slowing it down.
-
-
-## Individual Picture
-
-# Software Engineering Tradeoff Has Changed
-
-- Software Engineering Evolution
-    - Step #1: Basic automation (tasks)
-    - Step #2: Workflows and systems thinking (optimizations)
-    - Step #3: Data-driven decisions (AI)
-
-- Quantity over Quality
-    - More focus on optimizing on "efficiency" (or perceived efficiency) rather than focusing on "quality".
-    - Strong incentive to pivot towards AI instead of traditional computing paradigms
-    - More thruput = more complexity --> leads to more code that is less understood and harder to manage. Blast radius grows. Risk of creating a broken flow or bug grows with higher throughput, but the risk is hard to quantify until it's realized (all looks good until it doesn't).
-        - Thesis: the "cost" of implementing AI and the additional "complexity" is being underestimated. The "efficiency" gain is real for those who don't take shortcuts in understanding first principles.
-
-- A Saturated Job Market
-    - Less vectors to compete on
-        - Previously, you could compete on efficiency. AI makes that difficult to do, as everyone's thruput can grow regardless of the quality of their output (but the quality is hard to gauge right away)
-        - Cult like following of AI belief. Many people are so financially tied to an AI future, they are incentivized to push it as hard as possible. 
-        - Race to the bottom --> companies are betting on less people being able to prop up their company infra, believing they have leverage over labor due to there being enough people wanting the role and enough AI tools to multiply their output.
-            - H1B + visa scenarios hold people in jobs that treat them poorly and squeeze them for full output, as people can't leave without risk of deportation.
-
-# The New Value Prop
-
-- More value in authenticity, being offline, and having the ability for deep focus and critical thought than ever before
-    - Pressures and incentives will lead engineers to take shortcuts in the goal of increased "efficiency" > many of the shortcuts will increase complexity and simultaneously reduce their understanding of how everything works. Leaning more on AI agents and leaning into a more agressive working style of 9-9-6 with heavy context switching will reduce the mental weight of critical thought people put on individual items and thus atrophy that skill over time (ironically at the time their understanding and critical thought is most important as the amount of stuff to manage grows exponentially larger and more complex)
-    - AI and algorithms push people into decision making silos that often don't challenge their thought process. That plus the cognitive offloading I think will mean less "creativity" from those cronically online or leaning heavily into AI agents.
-    - If AI can automate all your tasks, move our value into a layer above task completion
-        - Be a brain, not a hammer
-        - Optimize for simplicity and true understanding of tradeoffs instead of just "completion" 
-
-
-# New Era, Old Narratives
-
-- Human Nature is consistent over time
-    - Incentives and safety/security drive behavior
-    - Complexity obfuscates cause and effect in society
-    - AI is a force multiplier, so it worsens the complexity (and thus the clarity of society) while also worsening inequality due to current incentive structures in place
-        - Ex: Consolidation of power and resources into relatively few companies, consolidation of financial risk into few companies, consolidation of narratives about the future into one AI-driven story 
-
-
-# What now?
-
-- Conclusion with connection of themes between the societal big picture and the individual software engineer experience.
-- Explaining next steps for myself and what I'm keeping an eye out for
-- Emphasizing the focus on building your own path and leaning into your own personal values and "skills". 
-- Using AI as a forcing function for learning and a tool to contradict your thinking silo and refine your thoughts with blind spots you miss or ignore.
-- How to cultivate deep focus?
-
-
-
-Planned structure:
-
-- It's hard to know what to focus on when it feels like there are no moats and when it feels like you won't really make any progress towards something.
-    - A less defined path sometimes makes it harder to act.
-    - Less trust in a shared future makes it harder to choose a side.
-- What is value in today's age? Previously "value" was efficiency at completing tasks (how fast can you do this for me? how many problems can you fix this week? etc...?) - and it was all relative to other people, so working harder often times paid dividends. Does working "harder" truly matter in an AI world where you are always gonna lose the "efficiency" value game to a computer? Where does value lie in that new game?
-    - In a world of abundance, maybe there is more value in getting to the essence of what makes life great (or the artistic nature of life) than there is for pure efficiency...
-- AI is simultaneously the best tool for learning and the worst (we'll see over time which side is more accurate).
-    - With AI I have a structured way to quiz myself on knowledge and open up gaps in my knowledge based purely on my conversations with an agent. I don't have to smart enough to know what I don't know, my agent can tell me my gaps and take me in different directions
-    - But AI also lets me offload my critical thinking skills which causes them to atrophy... so if I'm not actively practicing thinking through problems as hard (because I know at the end of the day I can ask a chatbot to do it for me), I lose out on valuable reps at the 🧠 gym and get mentally "weaker" as a result.
-- Human Nature & Attention Span
-    - The race to the bottom in terms of AI safety is concerning
-    - The race to the bottom in terms of AI "power" is also concerning
-    - Human Nature is bad at risk calculations (we oscillate both in the direction of too risky in our actions and/or not risky enough). Generally we're more swayed by our immediate environment than we are by "reality" (our perception of reality drives action, not reality itself).
-    - Given the lowering of attention span and deep focus + the ability to offload critical thinking to an AI system, I worry that it leads us to a world where people lose the ability to diagnose problems and oscillate quickly between 
-
-
-
-
-- Types of AI and Software
-    - Deterministic Problems (Algorithmic)
-    - Non-deterministic Problems (Fuzzy Logic / Probabilistic)
-
-- Leveling up the Software Evolutionary
-    - Level 1a: I'm lazy, automate this thing I used to do manually
-        - Different levels of difficulty and abstraction with this but generally think of it as something like a piece of software that auto-replies when an email hits your imbox. Basic trigger --> action software model.
-    - Level 1b
-
-
-    - LLMs
-    - Computer Vision
-    - Robotics
-    - Agents
-- Business AI Plays
-    - Foundational Intelligence Models
-    - Verticals
-    - Micro-models
-- Future of AI
-    - Growth
-    - Jobs
+Let's choose wisely.
