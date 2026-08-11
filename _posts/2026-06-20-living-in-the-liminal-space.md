@@ -13,18 +13,11 @@ header:
 
 > "If the doors of perception were cleansed every thing would appear to man as it is, Infinite. For man has closed himself up, till he sees all things thro' narrow chinks of his cavern."  - William Blake
 
-<!-- Over the past few months, I've been taking an AI safety course through [BlueDot](https://bluedot.org/courses/technical-ai-safety) to try to unlock a deeper perspective on AI and how this technology is going to impact my life on a more foundational level (both personally and professionally). Last month, I wrote a post on [my thoughts on AI]() where I laided out my nuanced opinion on the macro view of this technology wave and how it's going to impact society over the near future. While that piece helped me synthesize my thoughts holistically and gave me clarity on a macro-scale with the current moment, it failed to provide me the depth I needed to have true conviction in my next step. I needed to get closer to the foundational level to create a stronger mental model for how to digest this new technology and how it will impact my life. 
-
-Recently, I feel like I've gotten a perspective
-
-
-I decided to apply because I was curious to learn more about how this new technology works at a more foundational level. My last post, [my thoughts on AI](), covered the end-to-end birds eye view of how I see this new technology wave playing out and how I see it impacting our collective world. That piece helped me synthesize my thoughts holistically and articulate my nuanced viewpoint. While it gave me clarity on a macro scale to understand the current moment, that piece failed to give me the depth I needed to have conviction around how I should live my life (both personally and professionally) amidst this technology wave. -->
-
 This piece is going to be a little bit different than my past blog posts. Historically I've gone in depth on different topics to try to synthesize my thoughts and learn more about a given domain. Today, I want to explore a philosophical idea that I've been grappling with in an attempt to explain how this mental frame ties to my overall life philosophy and lived experience. 
 
 To fully explore the theory, I'm going to have to hop between philosophy, real-life anecdotes, and technical concepts. It may seem a bit random and "windy" at times, but if you stick with me I'll try to land the plane at the end with a clean theory backed by sound logic.
 
-So without further ado... let's dive in!
+So, without further ado... let's dive in!
 
 Enjoy 😊
 
@@ -35,13 +28,17 @@ A few weeks ago, I turned 30 (🎉!!) and while I've never really been one to as
 
 > *How do I live my best life?*
 
-This is a huge question and one with way too many broad strokes to tackle in one piece. If you get too close to it or try to define it too explicitly, it generally finds a way to wriggle away from your grasp through forcing a change of perspective (and thus forcing you to re-ask the question). 
+This is a huge question and one with way too many broad strokes to tackle in one piece. If you get too close to it or try to define it too explicitly, it generally finds a way to wriggle away from your grasp through forcing a change in perspective (and thus forcing you to re-ask the question). 
 
-In my early 20's I was living my "best" life in terms of my financial future and my career progression. I was able to work my way up the career ladder at a well respected company while saving up enough money to set myself up financially for the long term. Through the narrow lens of my bank account and my LinkedIn profile I was living my "best" life. But this life came at the cost of my free time, my peace of mind, and my ability to invest in relationships outside of work.
+In my early 20's I was living my "best" life in terms of my financial future and my career progression. I was able to work my way up the career ladder at a well respected company while saving up enough money to set myself up financially for the long term. Through the narrow lens of my bank account and my LinkedIn profile I was living my "best" life. But this life came at the cost of my free time, my peace of mind, and my ability to invest in relationships outside of work. Those were the tradeoffs inherent in my choices given my capacity at the time.
 
-Likewise, currently the pendulum of my life has swung in the opposite direction. I've used some of my savings from my early 20's to change my priorities and invest more in my health (physical and mental), my freedom (in terms of ownership over my time), and my relationships (family, romantic, friends, etc). This has undoubtedly been a great investment for me in myself, but has also left me feeling a bit lost and alone at times in search of the deeper meaning and purpose I used to have from solving hard problems as part of a team greater than myself. By optimizing around new priorities, I traded some "best" aspects of my old life for a new set of "best" aspects in my new life. 
+Currently, the pendulum of my life has swung in the opposite direction. I've used some of my savings from my early 20's to change my priorities and invest more in my health (physical and mental), my freedom (in terms of ownership over my time), and my relationships (family, romantic, friends, etc). This has undoubtedly been a great investment for me in myself, but has also left me feeling a bit lost and alone at times in search of the deeper meaning and purpose I used to get from solving hard problems as part of a team greater than myself. By optimizing around new priorities, I traded some "best" aspects of my old life for a new set of "best" aspects in my new life. 
 
-No matter how you define "best" in this question, there will always be some element that gets left out. Fundamentally, there is no objective right answer here. Whatever you optimize towards will naturally guide you away from other elements you care about. At the end of the day, it's all subjective and subjective answers depend on the audience and the context of your current environment and frame of reference to determine what "best" means at that point in time. It's a moving target that will naturally change as your lived experience changes your perspective and as your priorities change as a result. Using this current mental model leveraging optimization to answer fundamental life questions will never be a reliable way to guide you to a clean answer. 
+No matter how you define "best" in this equation, there will always be some element(s) that get left out. Fundamentally, there is no objective right answer here. Whatever you optimize towards will naturally guide you away from other elements that you care about. Certain things in this equation are orthogonal to one another, and thus by saying yes to one you inherently say no to the other (or at least shades of yes and no, as not all tradeoffs are binary).
+
+At the end of the day, this type of problem has a degree of subjectivity to it. The answer depends on the audience (you) and the context of your current environment and frame of reference to determine what best means to you at this point in time in your life. It's the type of problem that by definition is a moving target that will naturally change as your lived experience changes your perspective and your goals/desires/etc shift as a result. 
+
+Using the optimization mental model here to try to find an objective "best" life doesn't work. It will never be a reliable way to guide you to a clear answer. Whatever answer you find will be fragile and short-lived at best.
 
 We need a new mental model.
 
@@ -50,15 +47,18 @@ We need a new mental model.
 
 Ok... so how should I approach these subjective "moving target" questions? What's a better way to think about these types of dynamic fundamental problems?
 
-Today, I'd like to propose thinking about these vague "fuzzy" problems using the lens of *liminal space*.
+Today, I'd like to explore thinking about these vague subjective problems using the lens of *liminal space*. 
 
-But what exactly do I mean by liminal space here? It's a term that has multiple definitions depending on the domain. In AI (and mathmatics), liminal space is all the unmapped space in a multi-dimentional plane. In architecture, liminal space is the part of a room or building that is empty and a transition zone meant for passing through (like a hallway or an empty backroom). Regardless of the context, liminal space always refers to the idea of unexplored space - an area of mapped territory that is not yet covered or traversed. Personally, I think this frame of thinking graphically (and visually) about liminal space and layering that concept onto our perception of "best" in our lives (via our environment, our experience, and our ideas) is the best way to understanding moving target questions and find clarity in areas where there is no objective answer.
+Liminal space is a term that has multiple definitions depending on the domain. In AI (and mathmatics), liminal space refers to all the unmapped space that exists in a multi-dimentional plane. In architecture, liminal space is the part of a room or building that is empty and a transition zone meant for passing through (like a hallway or an empty backroom). Regardless of the context, liminal space always refers to the idea of "unexplored terrain" - an area of mapped (or unmapped) territory that is not currently occupied, covered, or traversed at the present moment. 
+
+Personally, I believe that our lives contain liminal space as well (not in the physical sense of the word but in the metaphysical sense). By imagining that we all reside on a continuum of human thought and experience, I believe that visualizing where you currently reside on that spectrum and where the liminal space is in your life can help give a better frame of reference for tackling complex problems and better understanding your current situation. While not perfect, this lens provides more freedom than the optimization approach and allows for the ability to live in contradiction to past identities while still appreciating the nuance and complexity of the whole. There doesn't need to be an objective "best" answer. There only needs to be more liminal space to explore.
+
 
 ## Mathmatical Mental Models
 
 To explore this idea further, I want to take a detour to the world of mathmatics to help visualize this concept to make it easier to digest the mental model I want you to use.
 
-When we grow up, all of us eventually take math classes where we have to graphically understand how mathmatical equations map onto 2D space. In algebra, we learn the concept that various equations with a dynamic set of parameters (usually "x") map across 2D space in the form of a graph of an x,y plane.
+As we grow up, all of us are eventually introduced to math classes where we have to graphically understand how mathmatical equations map onto 2D space.
 
 Think of the following equation:
 
@@ -66,49 +66,57 @@ Think of the following equation:
 
 ![algebra-equation-a](/images/algebra-equation-a.png)
 
-In this 2D graph, you can see that this equation "maps" to various parts of the 2D space. Some coordinates, like `(5, 7)`, live in the "mapped" space (the line the equation represents includes them) while other coordinates, like `(10, 2)`, live in the unmapped space of the graph. Naturally, by having an equation that defines our 2D space we have certain parts of that space that are well represented, and certain parts that are left unmapped. I think of the unmapped space as the *liminal space* of our 2D world.
+In this 2D graph, you can see that this function "maps" to various parts of the 2D space. Some coordinates, like `(5, 7)`, live in the "mapped" space (the line the equation represents includes them) while other coordinates, like `(10, 2)`, live in the unmapped space of the graph. Naturally, by having a function that defines which part of the 2D space we care about, we create certain parts of that space that are well represented and certain parts that are left unmapped. I think of the unmapped space of this graphical 2D world as the *liminal space*.
 
-Let's say I decide it is important to me that we map both `(5,7)` and `(10, 2)` in our 2D space instead of leaving either coordinate floating in liminal space. Both coordinates are near and dear to my heart and I care that both are represented. What can I do?
+Let's say I decide it is important to me that we map both `(5,7)` and `(10, 2)` instead of leaving either coordinate floating in liminal space. Both coordinates are near and dear to my heart and I care that both are represented by the function we choose. What can we do?
 
-Easy! We can change our equation that we are using to map the 2D space. Instead of using the original equation (`y = 2x - 3`), let's use the following equation:
+Easy! We can alter our equation that we are using to map the 2D space to ensure both coordinates are represented. Instead of using the original equation (`y = 2x - 3`), let's use the following equation:
 
 > *y = -x + 12*
 
 ![algebra-equation-b](/images/algebra-equation-b.png)
 
-Yes! We did it! You can see in the graph that both coordinates `(5,7)` and `(10, 2)` are mapped by our new equation. By changing the values m and b in our linear equation (`y = mx + b`) we were able to alter the part of the 2D space that was mapped and thus pull a coordinate out of liminal space into the well represented bucket.
+Great! We did it! You can see in the graph that both coordinates `(5,7)` and `(10, 2)` are mapped by our new function. By changing the values of the parameters `m` and `b` in our linear equation (`y = mx + b`) we are able to alter the part of the 2D space that is mapped and thus pull a coordinate out of liminal space into the well represented bucket. By choosing a different function, we were able to pick which coordinates we care most about in our 2D world.
 
 But... this came at a cost. 
 
-You may have already noticed the new presence of a third coordinate `(0, -3)` in the diagram. This is a coordinate that used to be represented by our previous function but is no longer mapped in 2D space by our new linear equation. By changing our equation, we pulled `(0, -3)` out of mapped space into liminal space. Mathmatically, there is no way to represent all three coordinates (`(0, -3)`, `(5, 7)`, and `(10, 2)`) with a linear equation (aka: a line), as prioritizing two coordinates naturally excludes the third. In linear equations, there exist only 2 variables (or parameters) to work with. All linear equations follow the format `y = mx + b`. We can manipulate the values of m to change the slope of the line and we can update the value of b to move our line up or down the y-axis, but with only two parameters to alter we are limited in the ways we can map 2D space using just a line. All linear equations can only represent a fraction of 2D space. No matter what line you choose, most of the graph is going to be liminal space.
+You may have already noticed the new presence of a third coordinate `(0, -3)` in the diagram. This is a coordinate that was represented by our previous function but is no longer mapped by our new linear equation. By changing our equation, we inherently prioritized the coordinate `(10, 2)` over the coordinate `(0, -3)` and thus pulled `(0, -3)` out of mapped space into liminal space as a result.
 
-But what if we decided not to use a linear equation? What if we gave ourselves more variables to work with to try to map our 2D world?
+Mathmatically, there is no way to represent all three coordinates (`(0, -3)`, `(5, 7)`, and `(10, 2)`) with a linear equation. With only a line at our disposal to map 2D space, these coordinates live orthoginal to each other thus forcing us to prioritize two at the expense of the third. No matter what line we choose, at least one coordinate will always be left out - that tradeoff is unavoidable given our constraints. 
 
-Great idea! The next step up from a linear equation (`y = mx + b`) would be a quatratic equation (`y = ax^2 + bx + c`). Instead of just 2 parameters to manipulate, quadratic equations have 3 (a, b, and c). This gives us more options with which to map our 2D plane. Using quadratic equations, we can map all three coordinates we were referencing earlier as we now have enough parameters to expand our mapped 2D space in a more complex way.
+But what if we decided not to use a linear equation? What if we gave ourselves more parameters to work with to try to map our 2D world and didn't limit ourselves to just a line?
 
-To show this, let's look at the following quadratic equation:
+Great idea! The next step up from a linear equation (`y = mx + b`) is a quatratic equation (`y = ax^2 + bx + c`). Instead of just 2 parameters to manipulate (`m` and `b`), quadratic equations have 3 parameters for us to play around with (`a`, `b`, and `c`). This gives us more options with which to map our 2D plane. Using quadratic equations, we can map all three coordinates we were referencing earlier as we now have enough parameters to expand our mapped 2D space in a more complex way. To show this, let's look at the following quadratic equation:
 
 > *y = -0.3x^2 + 3.5x - 3*
 
 ![algebra-equation-c](/images/algebra-equation-c.png)
 
-As you can see from this graph, with a quadratic equation we can properly map all three coordinates we cared about above. The ability to manipulate 3 parameters gives us more room to explore the 2D space in more complex ways. We can create parabolas and can also still create lines (linear equations) if needed by zeroing out the "a" parameter value in `y = ax^2 + bx + c`. Quadratic equations give us more flexibility and more complexity with which to map our 2D world.
+As you can see from this graph, with a quadratic equation we can properly map all three coordinates we cared about above. The ability to manipulate 3 parameters gives us more room to explore the 2D space in more complex ways. We can create parabolas and can also still create lines (linear equations) if needed by zeroing out the `a` parameter value in the quadratic formula: `y = ax^2 + bx + c`. 
 
-But... as you may have noticed, even with a parabolic function mapping our 2D world, we still have a lot of liminal space in our graph. While having 3 parameters instead of just 2 give us more flexibility, no matter what values we use for those parameters the resulting equations will always have parts of the 2D grid that are unmapped (like `(10, 10)`). Just like in our linear example above, most of the graph is still going to be liminal space.
+With this increased capacity (3 parameters over 2), the tradeoff that existed before is no longer present. This is the first lesson to be learned when thinking about metaphorical liminal space via our mathmatical mental model.
 
-Ok... I get it. You can't map everything. Fine. But let's say we take this to the extreme and allow for infinite parameters in our equation to map 2D space. With infinite parameters (aka: `y = ax^n + bx^(n-1) + cx^(n-2) + .... + z` where n is potentially infinity), we should have enough values to manipulate our equation to fit any collection of coordinates - right?
+> *Increasing your capacity can help remove artificial constraints that underpinned tradeoffs you previously had to make (when you were more limited in your capacity).*
 
-Yes! But the same catch as before still exists. With infinite parameters to mess with we can fit any collection of coordinates that is known (aka: any curve, shape, or wave within a 2D plane), but we cannot fit all possible curves, shapes, or waves that exist in 2D space at the same time. Just like we saw above when we only had 2 parameters (linear equations) and 3 parameters (quadratic equations), no matter what equation we end up with there will always be coordinates not represented by the funcation and thus a majority of the 2D plane will be liminal space.
+In the world where we only had the capacity to create a line, we had tradeoffs that we could not avoid. As our capacity improved to a higher number of parameters (upgrading from linear equations to quadratic equations), we were able to create more complex shapes and map different parts of our 2D space without needing to compromise as heavily as we had to with more limited tools. Increasing capacity led to our ability to handle more nuanced and complex coordinate combinations.
+
+But... as you may have noticed, even with the increased capacity that quadratic equations gives us, we still can only map so many coordinates at the same time. While having 3 parameters instead of just 2 give us more flexibility, no matter what parabola we choose to draw the resulting function will always be coordinates (like the coordinate `(10, 10)` in this example) that live in the liminal space.
+
+Ok... I get it. You can't map the whole 2D space. But couldn't we just do the same thing we did before when we upgraded from a linear equation to a quatric equation? If we just continue increasing our capacity (in terms of our number of parameters in our polynomial function) we should be able to create a complex function that maps to all the coordinates we care about. With infinite parameters (aka: `y = ax^n + bx^(n-1) + cx^(n-2) + .... + z` where n is potentially equal to infinity), we should have infinite flexibility to draw any curve we desire... right?
+
+Yes! Very clever. With infinite parameters to manipulate we can fit our function to any collection of coordinates that is known ahead of time (aka: any curve, shape, or wave within a 2D plane). But the same catch as before still exists. While we can fit any possible curve, we cannot fit all possible curves, shapes, or waves that exist in 2D space all at the same time. Just like we saw above when we only had 2 parameters (linear equations) and 3 parameters (quadratic equations), no matter what equation we end up with there will always be coordinates in liminal space that are not represented by our function. Just like before, even with infinite parameters, a majority of our 2D plane will be liminal space.
+
+It's a fuzzy non-objective problem like the one we encountered above. However you define the coordinates you want to map towards, if the definition of which coordinates you care about changes over time you will never be able to find a line of best fit that survives the fact that it's trying to map a moving target. You're never going to be able to optimize your way to a solution that works long term.
 
 > <u>NOTE</u>: This concept of infinite polynomials is called a [Power series](https://en.wikipedia.org/wiki/Power_series) and is a concept that comes up in Calculus (for the nerds reading this that want an entrypoint to do a deeper dive on the theory behind this stuff). It's also the format that most neural network neurons use ([perceptrons](https://www.youtube.com/watch?v=QryOsVWbr2c) too) when encoding information. We will get to this in a bit but generally when people talk about updating weights and biases during AI training, they are referring to updating the parameters in the polynomial that represents various neurons in the neural network. In machine learning, these matricies of parameters are often in much higher dimentionality than just 2D, but the mental model we introduced above still holds. MIT has a great (free) course called ["Introduction to Deep Learning"](https://www.youtube.com/watch?v=alfdI7S6wCY) that goes over this concept in more depth.
 
+> *If the goal you are optimizing for is constantly moving (in this case the coordinates we care about change frequently), even with infinite capacity it is impossible to find a line of best fit that isn't fragile to future changes. No matter what function you choose, liminal space will always be present.*
+
 ## Multi-dimentionality
 
-This mathmatical detour is not over yet (sorry non-STEM people). While learning about liminal space in two dimensions is interesting the concept becomes more profound as you extrapolate it to higher order dimentionality. Inherently this is hard for us to intuitively grasp, so to reduce the mental leap we're going to start by upgrading our mathmatical visuals from 2D space to 3D space.
+Unfortunately for my non-STEM readers, this mathmatical detour is not over yet. While learning about liminal space in two dimensions is interesting the concept becomes more profound as you extrapolate it to higher order dimentionality. This concept is hard for us to intuitively grasp, so to reduce the mental leap we're going to start by upgrading our mathmatical visuals from the last section to 3D space.
 
-With two dimensions, we were limited in what we could graph. We could make lines (via linear equations), parabolas (via quadratic equations), and higher-order curves (via polynomials) but that was about it. In three dimensions, we have another axis to play with - the z axis. As such instead of just making lines and curves, we can upgrade to creating multi-dimensional planes, shapes, and waves.
-
-![multidimensional-algebra-visual](/images/multidimensional-algebra-visual.png)
+With two dimensions, we were limited in what type of data we could represent. 2D space only provides us with enough parameters to build flat lines (via linear equations), parabolas (via quadratic equations), waves, shapes, and curves (via polynomials). Without a higher degree of dimensionality, we were limited in the complexity of data we could embed in our 2D space. By level up to 3D space, we now have another axis to play with and thus have more freedom to upgrade to creating multi-dimensional planes and more complex shapes and waves.
 
 To visualize this, I've graphed the following functions.
 
@@ -116,7 +124,9 @@ To visualize this, I've graphed the following functions.
 - Green: `x^2 + y^2 + z^2 = 9` (sphere)
 - Purple: `z = cos(x) + sin(y)` (egg-carton waves)
 
-As you can see from the equations themselves, there is now a z component for us to mess with. This additional dimensionality lets us play in 3D space and introduces a new set of parameters for us to manipulate. In 2D space, we provided parameters to our polynomial equations as grouping of `(x, y)` values. Now that we are in 3D space, coordinates are in three dimensions `(x, y, z)`.
+![multidimensional-algebra-visual](/images/multidimensional-algebra-visual.png)
+
+As you can see from the equations themselves, there is now a `z` component for us to mess with. This additional dimensionality lets us play in 3D space and introduces a new set of parameters for us to manipulate. In 2D space, we provided parameters to our polynomial equations as grouping of `(x, y)` values. Now that we are in 3D space, coordinates are in three dimensions `(x, y, z)`.
 
 AI systems normally try to find lines of best fit across data with a dimensionality in the hundreds to thousands of parameters
 
