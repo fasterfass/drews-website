@@ -52,6 +52,20 @@
       "date": "2026-05-28T00:00:00.000Z"
     },
     {
+      "id": "2026-09-13-learning-to-live-in-the-liminal-space",
+      "label": "Learning to Live in the Liminal Space 😶‍🌫️",
+      "url": "/my-thoughts/2026/09/13/learning-to-live-in-the-liminal-space.html",
+      "type": "post",
+      "tags": [
+        "ai",
+        "philosophy",
+        "theory",
+        "thoughts",
+        "liminal-space"
+      ],
+      "date": "2026-09-13T00:00:00.000Z"
+    },
+    {
       "id": "goodreads-the-second-mountain",
       "label": "The Second Mountain",
       "url": "https://www.goodreads.com/en/book/show/40642458-the-second-mountain",
@@ -311,6 +325,22 @@
       "source": "2026-04-10-simplicity-is-king",
       "target": "2026-05-28-my-thoughts-on-ai",
       "tags": [
+        "thoughts"
+      ]
+    },
+    {
+      "source": "2026-04-10-simplicity-is-king",
+      "target": "2026-09-13-learning-to-live-in-the-liminal-space",
+      "tags": [
+        "thoughts"
+      ]
+    },
+    {
+      "source": "2026-05-28-my-thoughts-on-ai",
+      "target": "2026-09-13-learning-to-live-in-the-liminal-space",
+      "tags": [
+        "ai",
+        "philosophy",
         "thoughts"
       ]
     },
